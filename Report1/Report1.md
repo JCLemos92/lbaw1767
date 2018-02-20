@@ -1,25 +1,17 @@
 # A1: Project management
 
-> goals, business context and environment
-
 This project intends to develop an information system with a web interface to be used in managment, objective setting and task scheduling  in scope of project development.
-
-> motivation
 
 Nowadays, with the amount of task and to do list apps available in the market for both singular users and groups (wunderlist is an example of one of this apps), we decided it could be helpfull to implement out take on the matter focusing more not in the use of to do lists but in full project development.
 
-> main features
-> user profiles
- 
-It is intended to develop an information system with a web interface for project management. There are only two types of permissions in the context of a project: the coordinator and the common users. Users may be associated with multiple projects. Each project has a team, task lists, and also a discussion forum for members of the project. Task lists can be organized into groups. Associated with each task can also be comments from other users. It is important to keep track of the user that defined the task as well as the user who completed it.
+We intend to make the platform available to a wide range of devices (desktop, tablet or smartphone), with an easy to use interface that allows easy and fast search of available projects, done and to be completed tasks and eventually warn the user of tasks that he has to do (if he is a regular user) and task that have been done by other users (if you are the creator of the task at hand).
 
-The platform will have an adaptive design, allowing the user to have a pleasant browsing experience, regardless of the access device (desktop, tablet or smartphone). The technology used will also allow fluent usage in navigation and provide an excellent user experience. In this way, the search engines will be fast and assertive, allowing users to easily search items.
+All users are the equal and have the same permissions, when a user creates a project ha becomes that project coordinator, being able to set it's information and define the size of the development team, adding and removing users from the team at will or making the project available allowing interested users to join the team. Users that join the development team are considered common users and can post on the project forum as well as create and choose tasks for the project. 
 
-Users are separated into groups with different permissions. There must be administration usage profiles, with all the privileges of access and modification. There also must be registered users usage profiles, with privileges to enter information, requests and returns of individual items, consult the information, register comments for the items and evaluate the items.
 ***
- 
- 
+
 GROUP17xx, 20/02/2018
  
 João Carlos Fonseca Pina de Lemos, ee10201@fe.up.pt
+
 Luis Guilherme da Costa Castro Neves, up201306485@fe.up.pt
