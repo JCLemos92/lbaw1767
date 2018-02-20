@@ -1,10 +1,12 @@
 # A1: Project management
 
 > goals, business context and environment
+
 This project intends to develop an information system with a web interface to be used in managment, objective setting and task scheduling  in scope of project development.
 
 > motivation
-Nowadays, with the amount of task and to do list apps available in the market for both singular users and groups (wunderlist is an example of one of this apps), we decided it could be helpfull to implement out take on the matter focusing more not in the use of to do lists but in full projetc development.
+
+Nowadays, with the amount of task and to do list apps available in the market for both singular users and groups (wunderlist is an example of one of this apps), we decided it could be helpfull to implement out take on the matter focusing more not in the use of to do lists but in full project development.
 
 > main features
 > user profiles
