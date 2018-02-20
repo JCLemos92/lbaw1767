@@ -21,5 +21,5 @@ Users are separated into groups with different permissions. There must be admini
  
 GROUP17xx, 20/02/2018
  
-> João Carlos Fonseca Pina de Lemos, ee10201@fe.up.pt
-> Luis Guilherme da Costa Castro Neves, up201306485@fe.up.pt
+João Carlos Fonseca Pina de Lemos, ee10201@fe.up.pt
+Luis Guilherme da Costa Castro Neves, up201306485@fe.up.pt
