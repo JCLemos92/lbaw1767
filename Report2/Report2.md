@@ -2,13 +2,15 @@
  
 ## 1. Actors
  
-> Diagram identifying actors and their relationships.
-> Table identifying actors, including a brief description and examples.
-Visitor: usuário que não está autenticado no sistema. Pode fazer login ou se cadastrar. 
-User: Não tem permissão para acessar as informações internas. Poderá acessar o nome e as descrições dos projetos que estão abertos.
-Coordinator: usuário criador do projeto, com permissão de definir, convidar e expulsar membros do o projeto, pode adicionar lista de tarefas e comentá-las. Além disso, pode criar um tópico no fórum de discussão para os membros do projeto. Pode também excluir o projeto.
-Common: usuário que se junta ou é convidado ao projeto, pode adicionar lista de tarefas e comentá-las. Além disso, pode criar um tópico no fórum de discussão para os membros do projeto.
-API: Login pelo FB.
+Identifier|Description|Examples
+----------|-----------|--------
+User|Generic user that has access to public information such as public project names and descriptions, can ask to join projects if option is available|n/a
+Visitor|Unauthenticated user that can register itself (sign-up) or sign-in in the system|n/a
+Common|User that joins a project or is included by the coordinator of said project, can add tasks and comment on them, can create topics on the forum|Team members
+Coordinator|User that creates a project. Can invite, accept join requests and ban users from said project, has same permissions as Common user|Team Leader
+API|External API that can be used to register or authenticate into the system|Facebook
+
+
 
 ## 2. User Stories
 > User stories organized by actor.
@@ -48,5 +50,8 @@ Changes made to the first submission:
  
 GROUP17xx, xx/xx/2018
  
-> Group member 1 name, email
-> Group member 2 name, email
+Carla Cristine Alvarenga Ferrarez de Castro, up201710786@fe.up.pt
+
+João Carlos Fonseca Pina de Lemos, ee10201@fe.up.pt
+
+Luis Guilherme da Costa Castro Neves, up201306485@fe.up.pt
