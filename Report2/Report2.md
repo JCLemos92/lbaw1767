@@ -20,8 +20,10 @@ Visitor
 Identifier|Name|Priority|Description
 ----------|----|--------|-----------
 US01|Sign-In|high|As a visitor, I want to authenticate into the system, so that I can access privileged information
-US02|Sign-up|high|As a visitor, I want to register myself into the system, so that I can authenticate myself into the system 
-US03|Sign-up using external API|low|As a Visitor, I want to register a new account linked to my Google account, so that I can access privileged information 
+US02|Sign-up|high|As a visitor, I want to register myself into the system, so that I can authenticate myself into the system
+US03|Sign-in using external API|low|As a Visitor, I want to sign-in through my Facebook account, so that I can authenticate myself into the system
+US04|Sign-up using external API|low|As a Visitor, I want to register a new account linked to my Facebook account, so that I can access privileged information
+ 
 
 Visitor: adicionar de item – visitor (sign-up API low) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2)
 User: Sign-out, pesquisar projetos e solicitar entrada. Alterar info do perfil (medium) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2  exceto item US17
