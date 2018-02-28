@@ -6,8 +6,9 @@
 
 > We intend to make the platform available to a wide range of devices (desktop, tablet or smartphone), with an easy to use interface. That will allow easy and fast search of available, concluded, and in progress projects. The system also counts with warning alerts of tasks that the user has been assigned and, by the other hand, if the user is the creator of the task, he will be notified when his tasks are done by other users.
 
-> All users are equal and have the same permissions, when a user creates a project ha becomes that project coordinator, being able to set it's information and define the size of the development team, adding and removing users from the team at will or making the project available allowing interested users to join the team. Users that join the development team are considered common users and can post on the project forum as well as create and choose tasks for the project. 
-
+> The system can be used by reistred users or visitors, both of then has access to public information, public projects names and descriptions, but only registered users can create or join projects. The visitor is a unregistred user that can sign-up or sign-in in the system.
+When a user creates a project he becomes that project coordinator, being able to set it's information and define the size of the development team, adding and removing users from the team at will or making the project available allowing interested users to join the team. Users that join the development team are considered common users and can post on the project forum as well as create and choose tasks for the project.
+ 
 ***
 
 ## Revision history
