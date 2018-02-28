@@ -33,7 +33,7 @@ Identifier|Name|Priority|Description
 ----------|----|--------|-----------
 US11|Home page|high|As an User, I want to access home page, so that I can see a brief website's presentation
 US12|About page|high|As an User, I want to access the about page, so that I can see a complete website's description
-US13|Services page|high|As an User, I want to access the services page, so that I can see the website's services
+US13|Projects page|high|As an User, I want to access the projects page, so that I can see the prejects list
 US14|FAQ page|high|As an User, I want to access the FAQ page, so that I can see Frequently Asked Questions
 US15|Contact page|high|As an User, I want to access contact page, so that I can see the contacts
 US16|Search|high|As an User, I want to consult all the public information, so that I be informed
@@ -42,10 +42,18 @@ US16|Search|high|As an User, I want to consult all the public information, so th
 
 Identifier|Name|Priority|Description
 ----------|----|--------|-----------
-
-
+US21|Sign-Out|high|As a registered user, I want to exit from the system, so that I can end my session
+US22|Search projects|high|As a registered user, I want to search a project, so that I can find the specific project
+US23|Join a project|high|As a registered user, I want to join a project, so that I can access privileged information
+US24|Edit profile|medium|As a registered user, I want to edit my profile, so that I can keep my profile updated
 
 ### 2.4. Common
+Identifier|Name|Priority|Description
+----------|----|--------|-----------
+US31|Member list|high|As a common user in a project, I want access the member list, so that I can se 
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+
 ### 2.5. Coordinator
 
 Visitor: adicionar de item – visitor (sign-up API low) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2)
