@@ -1,21 +1,25 @@
 # A1: Project management
 
-This project intends to develop an information system with a web interface to be used in management, objective setting and task scheduling  in scope of project development.
+> This project intends to develop an information system with a web interface to be used in management, objective setting and task scheduling  in scope of project development.
 
-Nowadays, with the amount of task and to do list apps available in the market for both singular users and groups (wunderlist is an example of one of this apps), we decided it could be helpfull to implement out take on the matter focusing more not only in the use of to do lists but in full project development. The application will provide interactive access with other users at the same time.
+> Nowadays, with the amount of task and to do list apps available in the market for both singular users and groups (wunderlist is an example of one of this apps), we decided it could be helpfull to implement out take on the matter focusing more not only in the use of to do lists but in full project development. The application will provide interactive access with other users at the same time.
 
-We intend to make the platform available to a wide range of devices (desktop, tablet or smartphone), with an easy to use interface. That will allow easy and fast search of available, concluded, and in progress projects. The system also counts with warning alerts of tasks that the user has been assigned and, by the other hand, if the user is the creator of the task, he will be notified when his tasks are done by other users.
+> We intend to make the platform available to a wide range of devices (desktop, tablet or smartphone), with an easy to use interface. That will allow easy and fast search of available, concluded, and in progress projects. The system also counts with warning alerts of tasks that the user has been assigned and, by the other hand, if the user is the creator of the task, he will be notified when his tasks are done by other users.
 
-All users are equal and have the same permissions, when a user creates a project ha becomes that project coordinator, being able to set it's information and define the size of the development team, adding and removing users from the team at will or making the project available allowing interested users to join the team. Users that join the development team are considered common users and can post on the project forum as well as create and choose tasks for the project. 
+> All users are equal and have the same permissions, when a user creates a project ha becomes that project coordinator, being able to set it's information and define the size of the development team, adding and removing users from the team at will or making the project available allowing interested users to join the team. Users that join the development team are considered common users and can post on the project forum as well as create and choose tasks for the project. 
+
+***
+
+## Revision history
 
 ***
 
 GROUP1767, 28/02/2018
  
-Carla Cristine Alvarenga Ferrarez de Castro, up201710786@fe.up.pt
+> Carla Cristine Alvarenga Ferrarez de Castro, up201710786@fe.up.pt
 
-Gabriel Machado, up201711002@fe.up.pt
+> Gabriel Machado, up201711002@fe.up.pt
  
-João Carlos Fonseca Pina de Lemos, ee10201@fe.up.pt
+> João Carlos Fonseca Pina de Lemos, ee10201@fe.up.pt
 
-Luis Guilherme da Costa Castro Neves, up201306485@fe.up.pt
+> Luis Guilherme da Costa Castro Neves, up201306485@fe.up.pt
