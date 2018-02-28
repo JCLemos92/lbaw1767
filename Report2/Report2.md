@@ -13,7 +13,8 @@ API|External API that can be used to register or authenticate into the system|Fa
 
 
 ## 2. User Stories
-> User stories organized by actor.
+Identifier|Name|Priority|Description
+----------|----|--------|-----------
 Visitor: adicionar de item – visitor (sign-up API low) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2) 
 User: Sign-out, pesquisar projetos e solicitar entrada. Alterar info do perfil (medium) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2  exceto item US17
 Coordinator: Todas as condições do user, ver a lista de membros do grupo, add e remover usuário, aceitar pedidos de entrada, editar definições do projeto, criar e comentar nas tarefas, criar discussão e comentar no fórum, remover comentários.
@@ -47,11 +48,13 @@ Changes made to the first submission:
 1. Item 2
  
 ***
- 
-GROUP17xx, xx/xx/2018
- 
-Carla Cristine Alvarenga Ferrarez de Castro, up201710786@fe.up.pt
 
-João Carlos Fonseca Pina de Lemos, ee10201@fe.up.pt
+GROUP1767, 28/02/2018
+ 
+> Carla Cristine Alvarenga Ferrarez de Castro, up201710786@fe.up.pt
 
-Luis Guilherme da Costa Castro Neves, up201306485@fe.up.pt
+> Gabriel Machado, up201711002@fe.up.pt
+ 
+> João Carlos Fonseca Pina de Lemos, ee10201@fe.up.pt
+
+> Luis Guilherme da Costa Castro Neves, up201306485@fe.up.pt
