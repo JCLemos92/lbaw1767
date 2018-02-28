@@ -13,9 +13,15 @@ API|External API that can be used to register or authenticate into the system|Fa
 
 
 ## 2. User Stories
+For the SYSTEM_NAME system, consider the user stories that are presented in the following sections. 
+
+Visitor
+
 Identifier|Name|Priority|Description
 ----------|----|--------|-----------
-Visitor: adicionar de item – visitor (sign-up API low) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2) 
+US01|Sign-In|high|As a visitor, I want to authenticate into the system, so that I can access privileged information
+
+Visitor: adicionar de item – visitor (sign-up API low) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2)
 User: Sign-out, pesquisar projetos e solicitar entrada. Alterar info do perfil (medium) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2  exceto item US17
 Coordinator: Todas as condições do user, ver a lista de membros do grupo, add e remover usuário, aceitar pedidos de entrada, editar definições do projeto, criar e comentar nas tarefas, criar discussão e comentar no fórum, remover comentários.
 Commom: Todas as condições do user, ver a lista de membros do grupo, criar e comentar nas tarefas, criar discussão e comentar no fórum. Editar comentários feitos (low).
