@@ -1,8 +1,6 @@
 # A2: Actors and User stories
  
 ## 1. Actors
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
  
 Identifier|Description|Examples
 ----------|-----------|--------
@@ -26,7 +24,23 @@ US03|Sign-in using external API|low|As a Visitor, I want to sign-in through my F
 US04|Sign-up using external API|low|As a Visitor, I want to register a new account linked to my Facebook account, so that I can access privileged information
  
 ### 2.2. User
+
+Identifier|Name|Priority|Description
+----------|----|--------|-----------
+US11|Home page|high|As an User, I want to access home page, so that I can see a brief website's presentation
+US12|About page|high|As an User, I want to access the about page, so that I can see a complete website's description
+US13|Services page|high|As an User, I want to access the services page, so that I can see the website's services
+US14|FAQ page|high|As an User, I want to access the FAQ page, so that I can see Frequently Asked Questions
+US15|Contact page|high|As an User, I want to access contact page, so that I can see the contacts
+US16|Search|high|As an User, I want to consult all the public information, so that I be informed
+
 ### 2.3. Registered User
+
+Identifier|Name|Priority|Description
+----------|----|--------|-----------
+
+
+
 ### 2.4. Common
 ### 2.5. Coordinator
 
