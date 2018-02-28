@@ -1,6 +1,8 @@
 # A2: Actors and User stories
  
 ## 1. Actors
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
  
 Identifier|Description|Examples
 ----------|-----------|--------
