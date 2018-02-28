@@ -15,7 +15,7 @@ API|External API that can be used to register or authenticate into the system|Fa
 ## 2. User Stories
 For the SYSTEM_NAME system, consider the user stories that are presented in the following sections. 
 
-Visitor
+### 2.1. Visitor
 
 Identifier|Name|Priority|Description
 ----------|----|--------|-----------
@@ -24,6 +24,10 @@ US02|Sign-up|high|As a visitor, I want to register myself into the system, so th
 US03|Sign-in using external API|low|As a Visitor, I want to sign-in through my Facebook account, so that I can authenticate myself into the system
 US04|Sign-up using external API|low|As a Visitor, I want to register a new account linked to my Facebook account, so that I can access privileged information
  
+### 2.2. User
+### 2.3. Registered User
+### 2.4. Common
+### 2.5. Coordinator
 
 Visitor: adicionar de item – visitor (sign-up API low) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2)
 User: Sign-out, pesquisar projetos e solicitar entrada. Alterar info do perfil (medium) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2  exceto item US17
