@@ -12,8 +12,7 @@ API|External API that can be used to register or authenticate into the system|Fa
 
 
 
-## 2. User Stories
-For the SYSTEM_NAME system, consider the user stories that are presented in the following sections. 
+## 2. User Stories 
 
 ### 2.1. Visitor
 
