@@ -1,6 +1,10 @@
 # A2: Actors and User stories
  
 ## 1. Actors
+
+![alt text](https://github.com/JCLemos92/lbaw1767/blob/master/Report2/28511661_1925099101137521_310704693_n.png "Logo Title Text 1")
+Figure 1: Actors.
+
  
 Identifier|Description|Examples
 ----------|-----------|--------
