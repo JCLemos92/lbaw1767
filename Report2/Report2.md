@@ -50,9 +50,12 @@ US24|Edit profile|medium|As a registered user, I want to edit my profile, so tha
 ### 2.4. Common
 Identifier|Name|Priority|Description
 ----------|----|--------|-----------
-US31|Member list|high|As a common user in a project, I want access the member list, so that I can se 
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-
+US31|Member list|high|As a common user in a project, I want to access the member list, so that I can see the members on project
+US32|Create a task|high|As a common user in a project, I want to create tasks, so that I set goals
+US33|Comment on a task|high|As a common user in a project, I want to comment on the tasks, so that I can tell other users my opinion
+US34|Create a forum posts|high|As a common user in a project, I want to create forum posts, so that I start a discussion
+US35|Comment on a forum post|high|As a common user in a project, I want to comment on the forum posts, so that I can tell other users my opinion
+US36|Edit comments|loW|As a common user in a project, I want to edit my comments on the forum posts, so that I can fix my comment
 
 ### 2.5. Coordinator
 
