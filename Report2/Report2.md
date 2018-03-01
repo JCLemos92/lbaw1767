@@ -49,12 +49,12 @@ Table 3: User's user stories
 
 Identifier|Name|Priority|Description
 ----------|----|--------|-----------
-US21|Sign-Out|High|As a registered user, I want to exit from the system, so that I can end my session
+US21|Sign-Out|High|As a authenticated user, I want to exit from the system, so that I can end my session
 US22|Search projects|High|As a authenticated user, I want to search a project, so that I can find the specific project
 US23|Join a project|High|As a authenticated user, I want to join a project, so that I can access privileged information
 US24|Edit profile|Medium|As a authenticated user, I want to edit my profile, so that I can keep my profile updated
 
-Table 4: Registered User's user stories 
+Table 4: Authenticated User's user stories 
 
 ### 2.4. Common
 Identifier|Name|Priority|Description
