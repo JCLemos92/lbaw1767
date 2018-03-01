@@ -109,10 +109,6 @@ TR09|Robustness|The system must be prepared to handle and continue operating whe
 TR10|Scalability|The system must be prepared to deal with the growth in the number of users and their actions
 TR11|Ethics|The system must respect the ethical principles in software development (for example, the password must be stored encrypted to ensure that only the owner knows it) 
 TR12|Legal requiriments|The system must be acording the laws
-
-Technical requirements are concerned with the technical aspects that the system must meet, such as performance-related issues, reliability issues and availability issues.
-Copiar de https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2 Technical requirements
-TR12 – Notifications – O sistema avisa o utilizador da alteração de status das tarefas.  
   
 ### A1.3. Restrictions
  
