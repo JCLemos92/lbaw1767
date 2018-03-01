@@ -92,12 +92,37 @@ BR01|User's login|A user login must contain at least 5 characters, including onl
 BR02|User's password|A user password must contain at least 8 characters, including only letters, numbers and  symbols
 BR03|Max Users|A project can contain a maximum of 100 users
 
-### A1.2. Technical requirements
+ ### A1.2. Technical requirements
+Technical requirements are concerned with the technical aspects that the system must meet, such as performance-related issues, reliability issues and availability issues. 
+
+Identifier|Name|Description 
+----------|----|-----------
+TR01|Availability|The system must be available 99 percent of the time in each 24-hour period
+TR02|Accessibility|The system must ensure that everyone can access the pages, regardless of whether they have any handicap or not, or the Web browser they use
+TR03|Usability|The system should be simple and easy to use
+TR04|Performance|The system should have response times shorter than 2s to ensure the user's attention
+TR05|Web application|The system should be implemented as a Web application with dynamic pages (HTML5, JavaScript, CSS3 and PHP)
+TR06|Portability|The server-side system should work across multiple platforms (Linux, Mac OS, etc.)
+TR07|Database|The PostgreSQL 9.4 database management system must be used
+TR08|Security|The system shall protect information from unauthorised access through the use of an authentication and verification system
+TR09|Robustness|The system must be prepared to handle and continue operating when runtime errors occur
+TR10|Scalability|The system must be prepared to deal with the growth in the number of users and their actions
+TR11|Ethics|The system must respect the ethical principles in software development (for example, the password must be stored encrypted to ensure that only the owner knows it) 
+TR12|Legal requiriments|The system must be acording the laws
+
 Technical requirements are concerned with the technical aspects that the system must meet, such as performance-related issues, reliability issues and availability issues.
 Copiar de https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2 Technical requirements
- TR12 – Notifications – O sistema avisa o utilizador da alteração de status das tarefas.  
+TR12 – Notifications – O sistema avisa o utilizador da alteração de status das tarefas.  
+  
 ### A1.3. Restrictions
  
+A restriction on the design limits the degree of freedom in the search for a solution
+
+Identifier|Name|Description 
+----------|----|-----------
+C01|Deadline|The system should be ready to be used at the end of june 2018
+
+
 ***
  
 ## Revision history
