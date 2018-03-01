@@ -13,7 +13,7 @@ Visitor|Unauthenticated user that has access to public information such as publi
 Common|User that joins a project or is included by the coordinator of said project, can add tasks and comment on them, can create topics on the forum|Team members
 Coordinator|User that creates a project. Can invite, accept join requests and ban users from said project, has same permissions as Common user|Team Leader
 API|External API that can be used to register or authenticate into the system|Facebook
-
+Table 1: Actor's description 
 
 
 ## 2. User Stories 
@@ -26,7 +26,8 @@ US01|Sign-In|high|As a visitor, I want to authenticate into the system, so that 
 US02|Sign-up|high|As a visitor, I want to register myself into the system, so that I can authenticate myself into the system
 US03|Sign-in using external API|low|As a Visitor, I want to sign-in through my Facebook account, so that I can authenticate myself into the system
 US04|Sign-up using external API|low|As a Visitor, I want to register a new account linked to my Facebook account, so that I can access privileged information
- 
+Table 2: Visitor's user stories 
+
 ### 2.2. User
 
 Identifier|Name|Priority|Description
@@ -37,6 +38,7 @@ US13|Projects page|high|As an User, I want to access the projects page, so that 
 US14|FAQ page|high|As an User, I want to access the FAQ page, so that I can see Frequently Asked Questions
 US15|Contact page|high|As an User, I want to access contact page, so that I can see the contacts
 US16|Search|high|As an User, I want to consult all the public information, so that I be informed
+Table 3: User's user stories 
 
 ### 2.3. Registered User
 
@@ -46,6 +48,7 @@ US21|Sign-Out|high|As a registered user, I want to exit from the system, so that
 US22|Search projects|high|As a registered user, I want to search a project, so that I can find the specific project
 US23|Join a project|high|As a registered user, I want to join a project, so that I can access privileged information
 US24|Edit profile|medium|As a registered user, I want to edit my profile, so that I can keep my profile updated
+ Table 4: Registered User's user stories 
 
 ### 2.4. Common
 Identifier|Name|Priority|Description
@@ -56,6 +59,7 @@ US33|Comment on a task|high|As a common user in a project, I want to comment on 
 US34|Create a forum posts|high|As a common user in a project, I want to create forum posts, so that I start a discussion
 US35|Comment on a forum post|high|As a common user in a project, I want to comment on the forum posts, so that I can tell other users my opinion
 US36|Edit comments|low|As a common user in a project, I want to edit my comments on the forum posts, so that I can fix my comment
+Table 5: Common User's user stories 
 
 ### 2.5. Coordinator
 Identifier|Name|Priority|Description
@@ -66,6 +70,7 @@ US43|Accept user|high|As a project coordinator, I want to accept users, so that 
 US44|Refuse user|high|As a project coordinator, I want to refuse users, so I can reject unnecessary users in the project
 US45|Edit project|high|As a project coordinator, I want to edit project description, so I can adjust the goals of project
 US46|Remove comments|high|As a project coordinator, I want to remove comments, so I can avoid unwanted comments
+Table 6: Coordinator's user stories
 
 Visitor: adicionar de item – visitor (sign-up API low) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2)
 User: Sign-out, pesquisar projetos e solicitar entrada. Alterar info do perfil (medium) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2  exceto item US17
