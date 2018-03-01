@@ -55,9 +55,17 @@ US32|Create a task|high|As a common user in a project, I want to create tasks, s
 US33|Comment on a task|high|As a common user in a project, I want to comment on the tasks, so that I can tell other users my opinion
 US34|Create a forum posts|high|As a common user in a project, I want to create forum posts, so that I start a discussion
 US35|Comment on a forum post|high|As a common user in a project, I want to comment on the forum posts, so that I can tell other users my opinion
-US36|Edit comments|loW|As a common user in a project, I want to edit my comments on the forum posts, so that I can fix my comment
+US36|Edit comments|low|As a common user in a project, I want to edit my comments on the forum posts, so that I can fix my comment
 
 ### 2.5. Coordinator
+Identifier|Name|Priority|Description
+----------|----|--------|-----------
+US41|Add user|high|As a project coordinator, I want to add users, so that I can include users on the project
+US42|Remove user|high|As a project coordinator, I want to remove users, so that I can keep only actives users on the project
+US43|Accept user|high|As a project coordinator, I want to accept users, so that I can include users on the project
+US44|Refuse user|high|As a project coordinator, I want to refuse users, so I can reject unnecessary users in the project
+US45|Edit project|high|As a project coordinator, I want to edit project description, so I can adjust the goals of project
+US46|Remove comments|high|As a project coordinator, I want to remove comments, so I can avoid unwanted comments
 
 Visitor: adicionar de item – visitor (sign-up API low) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2)
 User: Sign-out, pesquisar projetos e solicitar entrada. Alterar info do perfil (medium) https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2  exceto item US17
