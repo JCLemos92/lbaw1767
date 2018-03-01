@@ -10,7 +10,7 @@ Figure 1: Actors.
  
 Identifier|Description|Examples
 ----------|-----------|--------
-User|Generic user that has access to public information such as public project names and descriptions, can ask to join projects if option is available|N/A
+User|Generic user that has access to public information such as public project names and descriptions|N/A
 Visitor|Unauthenticated user that has access to public information such as public project names and descriptions. Can register itself (sign-up) or sign-in in the system|N/A
 Authenticated User|User that Authenticated at system, has access to the projects and foruns|N/A
 Common|User that joins a project or is included by the coordinator of said project. Can add tasks, comment on them and create topics on the forum|Team members
