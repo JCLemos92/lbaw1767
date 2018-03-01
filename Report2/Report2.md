@@ -2,7 +2,9 @@
  
 ## 1. Actors
 
-![alt text](https://github.com/JCLemos92/lbaw1767/blob/master/Report2/28511661_1925099101137521_310704693_n.png "Logo Title Text 1")
+![alt text](https://github.com/JCLemos92/lbaw1767/blob/master/Report2/28511904_1925414804439284_572127218_n.png "Logo Title Text 1")
+
+
 Figure 1: Actors.
 
  
