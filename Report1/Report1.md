@@ -18,7 +18,7 @@ GROUP1767, 28/02/2018
  
 > Carla Cristine Alvarenga Ferrarez de Castro, up201710786@fe.up.pt
 
-> Gabriel Machado, up201711002@fe.up.pt
+> Gabriel Francisco Machado, up201711002@fe.up.pt
  
 > João Carlos Fonseca Pina de Lemos, ee10201@fe.up.pt
 
