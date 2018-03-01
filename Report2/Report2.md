@@ -12,6 +12,7 @@ Identifier|Description|Examples
 ----------|-----------|--------
 User|Generic user that has access to public information such as public project names and descriptions, can ask to join projects if option is available|N/A
 Visitor|Unauthenticated user that has access to public information such as public project names and descriptions. Can register itself (sign-up) or sign-in in the system|N/A
+Authenticated User|User that Authenticated at system, has access to the projects and foruns
 Common|User that joins a project or is included by the coordinator of said project. Can add tasks, comment on them and create topics on the forum|Team members
 Coordinator|User that creates a project. Can invite, accept join requests and ban users of said project. Has the same permissions of Common user|Team Leader
 API|External API that can be used to register or authenticate in the system|Facebook
