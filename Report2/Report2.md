@@ -91,13 +91,19 @@ Commom: Todas as condições do user, ver a lista de membros do grupo, criar e c
 ### 2.N. Actor N
  
 ## A1. Annex: Supplementary requirements
- 
-> Annex including business rules, technical requirements, and restrictions.
-> For each subsection, a table containing identifiers, names, and descriptions for each requirement.
+This annex contains business rules, technical requirements and other non-functional requirements on the project.
  
 ### A1.1. Business rules
- 
+A business rule defines or constrains one aspect of the business, with the intention of asserting business structure or influencing business behaviour.
+
+Identifier|Name|Description 
+----------|----|-----------
+BR01|User's login|A user login must contain at least 5 characters, including only letters, numbers and  symbols
+BR02|User's password|A user password must contain at least 8 characters, including only letters, numbers and  symbols
+BR03|Max Users|A project can contain a maximum of 100 users
+
 ### A1.2. Technical requirements
+Technical requirements are concerned with the technical aspects that the system must meet, such as performance-related issues, reliability issues and availability issues.
 Copiar de https://web.fe.up.pt/~jlopes/doku.php/teach/lbaw/medialib/a2 Technical requirements
  TR12 – Notifications – O sistema avisa o utilizador da alteração de status das tarefas.  
 ### A1.3. Restrictions
