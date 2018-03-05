@@ -145,16 +145,126 @@ span.psw {
   </head>
 
   <body>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script>
+  // This is called with the results from from FB.getLoginStatus().
+  function statusChangeCallback(response) {
+    console.log('statusChangeCallback');
+    console.log(response);
+    // The response object is returned with a status field that lets the
+    // app know the current login status of the person.
+    // Full docs on the response object can be found in the documentation
+    // for FB.getLoginStatus().
+    if (response.status === 'connected') {
+      // Logged into your app and Facebook.
+      testAPI();
+    } else {
+      // The person is not logged into your app or we are unable to tell.
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into this app.';
+    }
+  }
+
+  // This function is called when someone finishes with the Login
+  // Button.  See the onlogin handler attached to it in the sample
+  // code below.
+  function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+  }
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1002356346580967',
+      cookie     : true,  // enable cookies to allow the server to access 
+                          // the session
+      xfbml      : true,  // parse social plugins on this page
+      version    : 'v2.8' // use graph api version 2.8
+    });
+
+    // Now that we've initialized the JavaScript SDK, we call 
+    // FB.getLoginStatus().  This function gets the state of the
+    // person visiting this page and can return one of three states to
+    // the callback you provide.  They can be:
+    //
+    // 1. Logged into your app ('connected')
+    // 2. Logged into Facebook, but not your app ('not_authorized')
+    // 3. Not logged into Facebook and can't tell if they are logged into
+    //    your app or not.
+    //
+    // These three cases are handled in the callback function.
+
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+
+  };
+
+  // Load the SDK asynchronously
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+
+  // Here we run a very simple test of the Graph API after login is
+  // successful.  See statusChangeCallback() for when this call is made.
+  function testAPI() {
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me', function(response) {
+      console.log('Successful login for: ' + response.name);
+      document.getElementById('status').innerHTML =
+        'Thanks for logging in, ' + response.name + '!';
+    });
+  }
+</script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
       	<img class="img-fluid mb-2" width="50" height="50" src="img/proplanlogo.png" alt="">
-        <a class="navbar-brand" href="/home-test/index.html">Home</a>
-        <a class="navbar-brand" href="/home-test/about.html">About</a>
-        <a class="navbar-brand" href="/home-test/projects.html">Projects</a>
-        <a class="navbar-brand" href="/home-test/faq.html">FAQ</a>
-        <a class="navbar-brand" href="/home-test/contact.html">Contact</a>
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="about.html">About</a>
+        <a class="navbar-brand" href="projects.html">Projects</a>
+        <a class="navbar-brand" href="faq.html">FAQ</a>
+        <a class="navbar-brand" href="contact.html">Contact</a>
         
         <a class="btn btn-primary" href="#" onclick="document.getElementById('id01').style.display='block'">Sign In</a>
       </div>
@@ -175,7 +285,11 @@ span.psw {
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
         
-      <button type="submit" class="btn btn-primary">Login</button>
+      <button type="submit" class="btn btn-primary">Login</button><fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+</fb:login-button>
+
+<div id="status">
+</div>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -317,7 +431,7 @@ window.onclick = function(event) {
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
-                <a href="/home-test/about.html">About</a>
+                <a href="about.html">About</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
@@ -325,7 +439,7 @@ window.onclick = function(event) {
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="/home-test/contact.html">Contact</a>
+                <a href="contact.html">Contact</a>
               </li>
             <p class="text-muted small mb-4 mb-lg-0">&copy; ProPlan 2018. All Rights Reserved.</p>
           </div>
