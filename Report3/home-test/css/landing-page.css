@@ -15,7 +15,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: /*url("../img/bg-masthead.jpg") no-repeat center center;*/ url("https://c1.staticflickr.com/5/4726/38273648654_f8e3c193f8_k.jpg") no-repeat center center;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -101,7 +101,7 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: /*url("../img/bg-masthead.jpg") no-repeat center center;*/ url("https://c1.staticflickr.com/5/4726/38273648654_f8e3c193f8_k.jpg") no-repeat center center;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
