@@ -111,6 +111,56 @@ max-width:12rem;
 box-shadow:0 5px 5px 0 #adb5bd
 }
 
+.container .search-container {
+  float: left;
+}
+.container input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.container .search-container button {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-left: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.container .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .container .search-container {
+    float: none;
+  }
+  .container input[type=text], .container .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+	margin-bottom: 12px;	
+  }
+  .container input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.card-deck{
+margin:auto;
+padding-top:7rem;
+padding-bottom:7rem;
+max-width:70rem;
+}
+
 .call-to-action{
 position:relative;
 background-color:#343a40;
