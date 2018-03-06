@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Landing Page - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+
+
+
+    
+  </head>
+  
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+        <img class="img-fluid mb-2" width="50" height="50" src="img/proplanlogo.png" alt="">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="about.html">About</a>
+        <a class="navbar-brand" href="projects.html">Projects</a>
+        <a class="navbar-brand" href="faq.html">FAQ</a>
+        <a class="navbar-brand" href="contact.html">Contact</a>
+        
+        <a class="btn btn-primary" href="#" onclick="document.getElementById('id01').style.display='block'">Sign In</a>
+      </div>
+    </nav>
+	
+		    <div class="col-xl-0 mx-auto">
+            <img  width="100%" height="30" src="img/bg-masthead.jpg" alt="">
+    </div>
+	
+
+    <!-- Overlay -->
+	<section class="navbar navbar-light bg-light static-top">
+	<div id="myNav" class="overlay">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ 		 <div class="overlay-content">
+ 		 <form action="/newprogect_page.php" method="post">
+ 		 	Project Title:<br>
+  			<input type="text" name="projtitle"><br>
+  			Project Description:<br>
+  			<textarea name="description" rows="10" cols="50"></textarea><br>
+  			Privacy Policy: 
+  			<select name="privacy">
+  				<option value="private">Private</option>
+  				<option value="public" selected>Public</option>
+			</select><br>
+			Max number of Contributors:<input type="number" name="points" min="1" max="100" step="1" value="5"><br>
+			<input type="submit" value="Submit">
+ 		 </form>
+	  </div>
+	</div>
+	</section>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Create New Project</span>
+	
+
+	<!-- Project Selection -->
+
+    <section class="testimonials text-center bg-light">
+      <div class="container">
+        <h2 class="mb-5">My Projects</h2>
+		<div class="search-container">
+			<form action="/action_page.php">
+				<input type="text" placeholder="Find a Project" name="find_proj" size = "80">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+
+	</section>
+	
+	<section>
+	<div>
+		<p><br></p>
+	</div>
+	<div class="col-md-10 col-lg-8 col-xl-10 mx-auto">
+	<div class="card-deck">
+		<div class="card">
+			<div class="card-header">
+			<h5 class="card-title">Title of Project</h5>
+			</div>
+			<div class="card-body">
+				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header">
+			<h5 class="card-title">Title of Project</h5>
+			</div>
+			<div class="card-body">
+				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header">
+			<h5 class="card-title">Title of Project</h5>
+			</div>
+			<div class="card-body">
+				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		</div>
+	</div></div>
+    </section>
+
+
+	<p><br></br></p> 
+
+	<div class="col-md-10 col-lg-8 col-xl-10 mx-auto">
+	<!-- Project Selection -->
+	<section>
+	<div class="card-deck">
+		<div class="card">
+			<div class="card-header">
+			<h5 class="card-title">Title of Project</h5>
+			</div>
+			<div class="card-body">
+				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header">
+			<h5 class="card-title">Title of Project</h5>
+			</div>
+			<div class="card-body">
+				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header">
+			<h5 class="card-title">Title of Project</h5>
+			</div>
+			<div class="card-body">
+				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			<a href="#" class="btn btn-primary">Go somewhere</a>
+			</div>
+			<div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		</div>
+	</div> 
+    </section>
+    <p><br></br></p>
+    <section align="center">
+    <div class="pagination" >
+  		<a href="#">&laquo;</a>
+  		<a href="#">1</a>
+  		<a class="active" href="#">2</a>
+  		<a href="#">3</a>
+  		<a href="#">4</a>
+  		<a href="#">5</a>
+  		<a href="#">6</a>
+  		<a href="#">&raquo;</a>
+	</div>
+
+    </section>
+</div>
+
+
+
+
+	<p><br></br></p> 
+	
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="/home-test/about.html">About</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="faq.html">FAQ</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="/home-test/contact.html">Contact</a>
+              </li>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; ProPlan 2018. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+	
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+	function openNav() {
+    	document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+    	document.getElementById("myNav").style.width = "0%";
+	}
+	</script>
+</body>
+</html>
