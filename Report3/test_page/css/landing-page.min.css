@@ -242,7 +242,7 @@ span.psw {
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
 /* Sytle testing for the overlay were the user creates new projects */
-/*.overlay {
+.overlay_proj {
     	height: 100%;
     	width: 0;
     	position: fixed;
@@ -253,9 +253,9 @@ span.psw {
     	background-color: rgba(0,0,0, 0.9);
     	overflow-x: hidden;
     	transition: 0.5s;
-	}*/
+	}
 
-	.overlay-content {
+	.overlay-content-mp {
     	position: relative;
     	top: 25%;
     	width: 100%;
@@ -263,7 +263,7 @@ span.psw {
     	margin-top: 30px;
 	}
 
-	.overlay a {
+	.overlay_proj a {
 	    padding: 8px;
 	    text-decoration: none;
 	    font-size: 36px;
@@ -272,11 +272,11 @@ span.psw {
 	    transition: 0.3s;
 	}
 
-	.overlay a:hover, .overlay a:focus {
+	.overlay_proj a:hover, .overlay_proj a:focus {
 	    color: #f1f1f1;
 	}
 
-	.overlay .closebtn {
+	.overlay_proj .closebtn {
 	    position: absolute;
 	    top: 20px;
 	    right: 45px;
@@ -284,8 +284,8 @@ span.psw {
 	}
 
 	@media screen and (max-height: 450px) {
-	  .overlay a {font-size: 20px}
-	  .overlay .closebtn {
+	  .overlay_proj a {font-size: 20px}
+	  .overlay_proj .closebtn {
 	    font-size: 40px;
 	    top: 15px;
 	    right: 35px;

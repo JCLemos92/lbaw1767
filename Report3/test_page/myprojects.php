@@ -4,9 +4,9 @@ include_once('header.php');
 
     <!-- Overlay -->
 	<section class="navbar navbar-light bg-light static-top">
-	<div id="myNav" class="overlay">
+	<div id="myNav" class="overlay_proj">
   		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
- 		 <div class="overlay-content">
+ 		 <div class="overlay-content-mp">
  		 <form action="/newprogect_page.php" method="post">
  		 	Project Title:<br>
   			<input type="text" name="projtitle"><br>
@@ -149,6 +149,20 @@ include_once('header.php');
 
 
 	<p><br></br></p> 
+	
+	<script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+	function openNav() {
+    	document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+    	document.getElementById("myNav").style.width = "0%";
+	}
+	</script>
 	
 <?
 include_once('footer.php');
