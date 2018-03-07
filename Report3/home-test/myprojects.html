@@ -47,13 +47,13 @@
     </div>
 	
 
-    <!-- Overlay -->
+    <!-- Overlay &#9886; -->
 	<section class="navbar navbar-light bg-light static-top">
 	<div id="myNav" class="overlay">
   		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
  		 <div class="overlay-content">
  		 <form action="/newprogect_page.php" method="post">
- 		 	Project Title:<br>
+ 		 	<h5>Project Title:
   			<input type="text" name="projtitle"><br>
   			Project Description:<br>
   			<textarea name="description" rows="10" cols="50"></textarea><br>
@@ -63,12 +63,13 @@
   				<option value="public" selected>Public</option>
 			</select><br>
 			Max number of Contributors:<input type="number" name="points" min="1" max="100" step="1" value="5"><br>
-			<input type="submit" value="Submit">
+			<input type="submit" value="Submit"></h5>
  		 </form>
 	  </div>
 	</div>
 	</section>
-	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Create New Project</span>
+
+	<span onclick="openNav()"> Create New Project </span>
 	
 
 	<!-- Project Selection -->
