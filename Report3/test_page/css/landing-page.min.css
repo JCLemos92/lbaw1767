@@ -242,7 +242,7 @@ span.psw {
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
 /* Sytle testing for the overlay were the user creates new projects */
-.overlay {
+/*.overlay {
     	height: 100%;
     	width: 0;
     	position: fixed;
@@ -253,7 +253,7 @@ span.psw {
     	background-color: rgba(0,0,0, 0.9);
     	overflow-x: hidden;
     	transition: 0.5s;
-	}
+	}*/
 
 	.overlay-content {
     	position: relative;
