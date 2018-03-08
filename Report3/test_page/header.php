@@ -27,7 +27,7 @@
 
   <body>
 	 <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light static-top">
+    <nav class="navbar navbar-light bg-light fixed-top">
       <div class="container">
       	<a  href="index.php"><img class="img-fluid mb-2" width="50" height="50" src="img/proplanlogo.png" alt=""></a>
         <a class="navbar-brand" href="index.php?page=home">Home</a>
