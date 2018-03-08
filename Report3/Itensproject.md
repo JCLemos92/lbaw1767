@@ -1,7 +1,7 @@
 > Todas as páginas
 
 	- Arrumar sign in e sign up
-	- Arrumar botões em todas as páginas
+	- Arrumar botões em todas as páginas (cores, funcionalidades)
 
 
 > Home
