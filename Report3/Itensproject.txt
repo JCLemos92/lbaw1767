@@ -1,34 +1,34 @@
-- Todas as páginas
+> Todas as pÃ¡ginas
 	- Arrumar sign in e sign up
-	- Arrumar botões em todas as páginas
+	- Arrumar botÃµes em todas as pÃ¡ginas
 
 
-- Home
-	- Fixar barra de navegação
+> Home
+	- Fixar barra de navegaÃ§Ã£o
 	- Colocar link no icone para home
-	- Diminuir os espaços
-	- Trocar imagens para prints da página de projetos
+	- Diminuir os espaÃ§os
+	- Trocar imagens para prints da pÃ¡gina de projetos
 
-- About
+> About
 	- Arrumar texto
 	- Arrumar imagens
 
-- Projects (public)
+> Projects (public)
 	- Arrumar texto
-	- Fazer 1, 2, 3 de páginas contendo mais projetos
+	- Fazer 1, 2, 3 de pÃ¡ginas contendo mais projetos
 
-- Projects (autenticado)
+> Projects (autenticado)
 
 	- Parte de membros e tarefas
-	- Fórum 
+	- FÃ³rum 
 
-- FAQ
+> FAQ
 	- Arrumar texto
 
-- Contact 
+> Contact 
 	- Alinhar a esquerda
 	-
 
 
-- Sitemap mostrar pro Daniel
-- Fazer API
+> Sitemap mostrar pro Daniel
+> Fazer API
