@@ -24,7 +24,13 @@
 > Projects (autenticado)
 
 	- Parte de membros e tarefas
-	- Fórum 
+	- Criar forum, criar post no forum e comentar no post do forum
+	- Sign out
+	- Join a project
+	- Edit profile
+	- Create a task and comment
+	- Coordenador: add user, remove user, accept user, refuse user, edit project description, remove comments
+	
 
 > FAQ
 
@@ -37,3 +43,4 @@
 
 > Sitemap mostrar pro Daniel
 > Fazer API
+> Editar comentários no forum
