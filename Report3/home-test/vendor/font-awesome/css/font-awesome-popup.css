@@ -9,15 +9,41 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
+input.search {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
 /* Set a style for all buttons */
 button {
-    background-color: #4CAF50;
+    background-color: #5e8ee0;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
+}
+
+button.search {
+    background-color: #5e8ee0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+a.icon {
+    background: url("http://localhost/home-test/img/proplanlogo.svg") rgba(0,0,0,0) no-repeat;
+    height:  70px;
+    width:  70px;
+
 }
 
 button:hover {
