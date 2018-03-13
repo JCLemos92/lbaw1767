@@ -47,30 +47,42 @@
     </div>
 	
 
-    <!-- Overlay &#9886; -->
-	<section class="navbar navbar-light bg-light static-top">
-	<div id="myNav" class="overlay">
-  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
- 		 <div class="overlay-content">
- 		 <form action="/newprogect_page.php" method="post">
- 		 	<h5>Project Title:
-  			<input type="text" name="projtitle"><br>
-  			Project Description:<br>
-  			<textarea name="description" rows="10" cols="50"></textarea><br>
-  			Privacy Policy: 
-  			<select name="privacy">
-  				<option value="private">Private</option>
-  				<option value="public" selected>Public</option>
-			</select><br>
-			Max number of Contributors:<input type="number" name="points" min="1" max="100" step="1" value="5"><br>
-			<input type="submit" value="Submit"></h5>
- 		 </form>
-	  </div>
-	</div>
-	</section>
+	<div id="id03" class="modal" align="center">
 
-	<span onclick="openNav()"> Create New Project </span>
-	
+		<form class="modal-content animate" action="/action_page3.php">
+		 	<div class="imgcontainer">
+		 		<span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;
+		 		</span>
+	    	</div>
+
+		 	<div class="container">
+		 		<label for="title"><b>Project Title</b></label>
+				<input type="text" placeholder="Enter Project Title" name="title" required><br>
+
+				<label for="pdis"><b>Project Description</b></label>
+				<textarea placeholder="Project Description" name="description" rows="10" cols="50"></textarea><br>
+
+				<label for="privacy"><b>Privacy</b></label>
+				<select name="privacy">
+					<option value="private">Private</option>
+					<option value="public" selected>Public</option>
+				</select><br>
+
+				<label for="number"><b>Max Number of Contributors</b></label>
+				<input type="number" name="points" min="1" max="100" step="1" value="5"><br>
+
+			</div>
+
+			<button type="submit" class="btn btn-primary">Submit</button>
+			<label>
+				<input type="checkbox" checked="checked" name="takeme"> Take me to project page
+			</label>
+		</form>
+	</div>
+	<div style="position: absolute; top: 7rem; left:7rem">
+	<a class="btn btn-primary" href="#" onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Create New Project</a>
+	</div>
+
 
 	<!-- Project Selection -->
 
@@ -223,17 +235,9 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/popup.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-
-    <script>
-	function openNav() {
-    	document.getElementById("myNav").style.width = "100%";
-	}
-
-	function closeNav() {
-    	document.getElementById("myNav").style.width = "0%";
-	}
-	</script>
 </body>
+
 </html>
+
