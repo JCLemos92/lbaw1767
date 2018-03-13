@@ -102,32 +102,31 @@
         	<h4 class="mb-5">Task List</h4>
 
 			<div class="card-deck">
-				<div class="card text-white bg-success mb-3">
-						<div class="card-header">In works by NAME</div>
-						<div class="card-body">
-						<h5 class="card-title">Title of task</h5>
-						<p class="card-text">Descritpion of task</p>
-						</div>
-				</div>
-			</div><br>
-			<div class="card-deck">
-				<div class="card text-white bg-dark mb-3">
-						<div class="card-header">No one in charge</div>
-						<div class="card-body">
-						<h5 class="card-title">Title of task</h5>
-						<p class="card-text">Descritpion of task</p>
-						</div>
-				</div>
-			</div><br>
-			<div class="card-deck">
-				<div class="card text-white bg-danger mb-3">
-						<div class="card-header">Completed by NAME</div>
-						<div class="card-body">
-						<h5 class="card-title">Title Of task</h5>
-						<p class="card-text">Descritpion of task</p>
-            <div class="card-footer">Date of Completion: 12/03/2018</div>
-						</div>
-				</div>
+        <div class="card border-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-dark">Task Available for choosing</div>
+          <div class="card-body text-dark">
+            <h5 class="card-title">Title of not yet started task</h5>
+            <p class="card-text">Task description</p>
+          </div>
+          <div class="card-footer bg-transparent border-success">To do time: dd/mm/yyyy</div>
+      </div>
+        <div class="card border-warning mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-warning">Task In Works By: USER</div>
+          <div class="card-body text-warning">
+            <h5 class="card-title">Title of in progress task</h5>
+            <p class="card-text">Task description</p>
+          </div>
+          <div class="card-footer bg-transparent border-success">To do time: dd/mm/yyyy</div>
+      </div>
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">Task Completed By: USER</div>
+          <div class="card-body text-success">
+            <h5 class="card-title">Title of completed task</h5>
+            <p class="card-text">Task description</p>
+          </div>
+          <div class="card-footer bg-transparent border-success">Completed at: dd/mm/yyyy</div>
+      </div>
+
 			</div><br>	
 		<section align="center">
     		<div class="pagination" >
@@ -143,7 +142,8 @@
 		</div>
     </section>
     <p><br></br></p>
-
+</div>
+</section>
 </div>
 
 
@@ -180,7 +180,26 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/jquery/popup.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
+<!--Forum Thread Creator
+  <div id="id05" class="modal" align="center">
 
+    <form class="modal-content animate" action="/action_page3.php">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;
+        </span>
+        </div>
+
+      <div class="container">
+        <label for="title"><b>Forum Thread Title</b></label>
+        <input type="text" placeholder="Enter Forum Thread Title" name="title" required><br>
+
+        <label for="pdis"><b>Post</b></label>
+        <textarea placeholder="Enter Text" name="post" rows="10" cols="40"></textarea><br>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div> -->
