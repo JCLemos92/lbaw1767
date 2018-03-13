@@ -26,6 +26,15 @@
 	</head>
 
   <body>
+  
+  
+	  
+    <nav style="visibility:hidden" class="navbar navbar-light bg-light fixed-top">
+      <div class="container">
+	 <img class="img-fluid mb-2" width="50" height="50" src="img/proplanlogo.png" alt="">This is just a cheat, so that the header doesn't hide anything!
+      </div>
+    </nav>
+	
 	 <!-- Navigation -->
     <nav class="navbar navbar-light bg-light fixed-top">
       <div class="container">
@@ -37,12 +46,6 @@
         <a class="navbar-brand" href="index.php?page=contact">Contact</a>
         
         <a class="btn btn-primary" href="#" onclick="document.getElementById('id01').style.display='block'">Sign In</a>
-      </div>
-    </nav>
-	  
-    <nav class="navbar navbar-light bg-light fixed-top">
-      <div class="container">
-	 <img class="img-fluid mb-2" width="50" height="50" src="img/proplanlogo.png" alt="">This is just a cheat, so that the header doesn't hide anything!
       </div>
     </nav>
 	
