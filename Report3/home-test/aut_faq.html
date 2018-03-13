@@ -8,14 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ProPlan</title>
+    <title>Landing Page - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/font-awesome/css/font-awesome-popup.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -29,17 +29,33 @@
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
-        <a class="icon" href="index.html"></a>
-        <a class="navbar-brand" href="index.html">Home</a>
-        <a class="navbar-brand" href="about.html">About</a>
-        <a class="navbar-brand" href="projects.html">Projects</a>
-        <a class="navbar-brand" href="faq.html">FAQ</a>
-        <a class="navbar-brand" href="contact.html">Contact</a>
-        <a class="btn btn-primary" href="#" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign In</a>
-      </div>
+        <a class="icon" href="aut_index.html"></a>
+        <a class="navbar-brand" href="aut_index.html">Home</a>
+        <a class="navbar-brand" href="aut_about.html">About</a>
+        <a class="navbar-brand" href="aut_projects.html">Projects</a>
+        <a class="navbar-brand" href="aut_faq.html">FAQ</a>
+        <a class="navbar-brand" href="aut_contact.html">Contact</a>
+        
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Username
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="aut_editprofile.html">Edit Profile</a>
+            <a class="dropdown-item" href="#">My Projects</a>
+            <a class="dropdown-item" href="#">Project Invites</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index.html">Sign Out</a>
+          </div>
+        </div>
     </nav>
+
+      <div class="col-xl-0 mx-auto">
+            <img  width="100%" height="30" src="img/bg-masthead.jpg" alt="">
+    </div>
+
   <!-- The Modal -->
-<div id="id01" class="modal" align="center">
+<div id="id01" class="modal">
   
   <form class="modal-content animate" action="/action_page.php">
     <div class="imgcontainer">
@@ -355,9 +371,9 @@
 
 
  <!-- The Modal -->
-<div id="id02" class="modal" align="center">
+<div id="id02" class="modal">
   
-  <form class="modal-content animate" action="aut_index.html">
+  <form class="modal-content animate" action="/action_page2.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
@@ -383,88 +399,22 @@
   </form>
 </div>
 
-
-
-    <!-- Masthead -->
-    <header class="masthead text-white text-center">
-      <div class="overlay"></div>
+    <!-- FAQ Information -->
+    <section class="testimonials text-center bg-light">
       <div class="container">
-        <div class="row">
-          <div class="col-xl-10 mx-auto">
-          	<img class="img-fluid mb-2" width="400" height="342" src="img/ProPlanimage.svg" alt=""><p></p>
-            <h1 class="mb-5">ProPlan is a way of planning your project, getting a wide view of it, wherever you are.</h1>
-		</div>
-          <div class="col-xl-9 mx-auto">
-          	<h4 class="mb-5">Visualize every project you belong in one place. Get contact with your team. Receive notifications of progress. For free.</h4>
-          </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-              <button type="submit" class="btn btn-block btn-lg btn-primary" onclick="document.getElementById('id01').style.display='block'" >Sign up for ProPlan!</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+        <h2 class="mb-5">FAQ</h2>
+        <div class="col-lg-12 order-lg-1 my-auto showcase-text">
 
-    <!-- Icons Grid -->
-    <section class="features-icons bg-light text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                <i class="icon-screen-desktop m-auto text-primary"></i>
-              </div>
-              <h3>Everything Online</h3>
-              <p class="lead mb-0">Get and post the information you want at any time!</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                <i class="icon-layers m-auto text-primary"></i>
-              </div>
-              <h3>All in One</h3>
-              <p class="lead mb-0">Get rid of papers. Help the environment!</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-              <div class="features-icons-icon d-flex">
-                <i class="icon-check m-auto text-primary"></i>
-              </div>
-              <h3>Easy to Use</h3>
-              <p class="lead mb-0">Uncomplicated design, just assign and we'll help you building or choosing a project.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <h5> <a href="javascript:toggleElement('a1')"> How can I invite someone for a project? </a> </h5>
+            <p><div id="a1" style="display:none">Answer 1 </div></p>
+            <h5> <a href="javascript:toggleElement('a2')"> How to assign a task for a member? </a> </h5>
+            <p><div id="a2" style="display:none">Answer 2 </div></p>
+            <h5> <a href="javascript:toggleElement('a3')"> Where can I find my notifications? </a> </h5>
+            <p><div id="a3" style="display:none">Answer 3 </div></p>
+            <h5> <a href="javascript:toggleElement('a4')"> Can I deny access to a member of the team?</a> </h5>
+            <p><div id="a4" style="display:none">Answer 4 </div></p>
 
-    <!-- Image Showcases -->
-    <section class="showcase">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
-
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>A small sample</h2>
-            <p class="lead mb-0">This is an example of a ProPlan project. When creating you can choose the project's name, invite members and set up the privacy settings. This means your project can be visualized only for invited people or anyone authenticated in the plataform.</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-          <div class="col-lg-6 my-auto showcase-text">
-            <h2>Features</h2>
-            <p class="lead mb-0">Add tasks, assign for those you are able to do and give them a deadline. Don't worry about missing any changes of the project, the coordinator will be notified.</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Easy transmission</h2>
-            <p class="lead mb-0">If comunication is needed you can count on a discussion forum for general info or focused in a especific subject.</p>
-          </div>
-        </div>
+         </div>
       </div>
     </section>
 
@@ -479,7 +429,7 @@
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
               <div class="form-row">
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary" onclick="document.getElementById('id01').style.display='block'">Sign up for ProPlan!</button>	
+                  <button type="submit" class="btn btn-block btn-lg btn-primary" onclick="document.getElementById('id01').style.display='block'">Sign up for ProPlan!</button>  
                  </div>
               </div>
           </div>
@@ -494,15 +444,15 @@
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
-                <a href="/home-test/about.html">About</a>
+                <a href="aut_about.html">About</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="faq.html">FAQ</a>
+                <a href="aut_faq.html">FAQ</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="/home-test/contact.html">Contact</a>
+                <a href="aut_contact.html">Contact</a>
               </li>
             <p class="text-muted small mb-4 mb-lg-0">&copy; ProPlan 2018. All Rights Reserved.</p>
           </div>
@@ -512,8 +462,8 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/jquery/popup.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/faq.js"></script>
 
   </body>
 

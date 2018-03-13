@@ -30,16 +30,29 @@
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
         <a class="icon" href="index.html"></a>
-        <a class="navbar-brand" href="index.html">Home</a>
-        <a class="navbar-brand" href="about.html">About</a>
-        <a class="navbar-brand" href="projects.html">Projects</a>
-        <a class="navbar-brand" href="faq.html">FAQ</a>
-        <a class="navbar-brand" href="contact.html">Contact</a>
-        <a class="btn btn-primary" href="#" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign In</a>
+        <a class="navbar-brand" href="aut_index.html">Home</a>
+        <a class="navbar-brand" href="aut_about.html">About</a>
+        <a class="navbar-brand" href="aut_projects.html">Projects</a>
+        <a class="navbar-brand" href="aut_faq.html">FAQ</a>
+        <a class="navbar-brand" href="aut_contact.html">Contact</a>
+        
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Username
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="aut_editprofile.html">Edit Profile</a>
+            <a class="dropdown-item" href="#">My Projects</a>
+            <a class="dropdown-item" href="#">Project Invites</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index.html">Sign Out</a>
+          </div>
+        </div>
+
       </div>
     </nav>
   <!-- The Modal -->
-<div id="id01" class="modal" align="center">
+<div id="id01" class="modal">
   
   <form class="modal-content animate" action="/action_page.php">
     <div class="imgcontainer">
@@ -355,7 +368,7 @@
 
 
  <!-- The Modal -->
-<div id="id02" class="modal" align="center">
+<div id="id02" class="modal">
   
   <form class="modal-content animate" action="aut_index.html">
     <div class="imgcontainer">
@@ -397,9 +410,7 @@
           <div class="col-xl-9 mx-auto">
           	<h4 class="mb-5">Visualize every project you belong in one place. Get contact with your team. Receive notifications of progress. For free.</h4>
           </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-              <button type="submit" class="btn btn-block btn-lg btn-primary" onclick="document.getElementById('id01').style.display='block'" >Sign up for ProPlan!</button>
-            </div>
+          
           </div>
         </div>
       </div>
@@ -468,25 +479,6 @@
       </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="call-to-action text-white text-center">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-          </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-              <div class="form-row">
-                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary" onclick="document.getElementById('id01').style.display='block'">Sign up for ProPlan!</button>	
-                 </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Footer -->
     <footer class="footer bg-light">
       <div class="container">
@@ -494,15 +486,15 @@
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
-                <a href="/home-test/about.html">About</a>
+                <a href="aut_about.html">About</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="faq.html">FAQ</a>
+                <a href="aut_faq.html">FAQ</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="/home-test/contact.html">Contact</a>
+                <a href="aut_contact.html">Contact</a>
               </li>
             <p class="text-muted small mb-4 mb-lg-0">&copy; ProPlan 2018. All Rights Reserved.</p>
           </div>
