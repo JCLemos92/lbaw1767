@@ -1,293 +1,712 @@
 body{
+
 font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif
+
 }
+
 h1,h2,h3,h4,h5,h6{
+
 font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
 font-weight:700
+
 }
+
 header.masthead{
+
 position:relative;
+
 background-color:#343a40;
+
 background:url(../img/bg-masthead.jpg) no-repeat center center;
+
 -webkit-background-size:cover;
+
 -moz-background-size:cover;
+
 -o-background-size:cover;
+
 background-size:cover;
+
 padding-top:8rem;
+
 padding-bottom:8rem
+
 }
+
 header.masthead .overlay{
+
 position:absolute;
+
 background-color:#212529;
+
 height:100%;
+
 width:100%;
+
 top:0;
+
 left:0;
+
 opacity:.3
+
 }
+
 header.masthead h1{
+
 font-size:2rem
+
 }
+
 @media (min-width:768px){
+
 header.masthead{
+
 padding-top:12rem;
+
 padding-bottom:12rem
+
 }
+
 header.masthead h1{
+
 font-size:3rem
-}
 
 }
+
+
+
+}
+
 .showcase .showcase-text{
+
 padding:3rem
-}
-.showcase .showcase-img{
-min-height:30rem;
-background-size:cover
-}
-@media (min-width:768px){
-.showcase .showcase-text{
-padding:7rem
-}
 
 }
+
+.showcase .showcase-img{
+
+min-height:30rem;
+
+background-size:cover
+
+}
+
+@media (min-width:768px){
+
+.showcase .showcase-text{
+
+padding:7rem
+
+}
+
+
+
+}
+
 .features-icons{
+
 padding-top:7rem;
+
 padding-bottom:7rem
+
 }
+
 .features-icons .features-icons-item{
+
 max-width:20rem
+
 }
+
 .features-icons .features-icons-item .features-icons-icon{
+
 height:7rem
+
 }
+
 .features-icons .features-icons-item .features-icons-icon i{
+
 font-size:4.5rem
+
 }
+
 .features-icons .features-icons-item:hover .features-icons-icon i{
+
 font-size:5rem
+
 }
+
 .testimonials{
+
 padding-top:7rem;
+
 padding-bottom:7rem
+
 }
+
 .testimonials .testimonial-item{
+
 max-width:18rem
+
 }
+
 .testimonials .testimonial-item img{
+
 max-width:12rem;
+
 box-shadow:0 5px 5px 0 #adb5bd
+
 }
+
 .call-to-action{
+
 position:relative;
+
 background-color:#343a40;
+
 background:url(../img/bg-masthead.jpg) no-repeat center center;
+
 -webkit-background-size:cover;
+
 -moz-background-size:cover;
+
 -o-background-size:cover;
+
 background-size:cover;
+
 padding-top:7rem;
+
 padding-bottom:7rem
+
 }
+
 .call-to-action .overlay{
+
 position:absolute;
+
 background-color:#212529;
+
 height:100%;
+
 width:100%;
+
 top:0;
+
 left:0;
+
 opacity:.3
+
 }
+
 footer.footer{
+
 padding-top:0.1rem;
+
 padding-bottom:0.1rem
+
 }
+
+
 
 body {font-family: Arial, Helvetica, sans-serif;}
 
+
+
 /* Full-width input fields */
+
 input[type=text], input[type=password] {
+
     width: 100%;
+
     padding: 12px 20px;
+
     margin: 8px 0;
+
     display: inline-block;
+
     border: 1px solid #ccc;
+
     box-sizing: border-box;
+
 }
+
+
 
 /* Set a style for all buttons */
+
 button {
+
     background-color: #4CAF50;
+
     color: white;
+
     padding: 14px 20px;
+
     margin: 8px 0;
+
     border: none;
+
     cursor: pointer;
+
     width: 100%;
+
 }
+
+
 
 button:hover {
+
     opacity: 0.8;
+
 }
+
+
 
 /* Extra styles for the cancel button */
+
 .cancelbtn {
+
     width: auto;
+
     padding: 10px 18px;
+
     background-color: #f44336;
+
 }
+
+
 
 /* Center the image and position the close button */
+
 .imgcontainer {
+
     text-align: center;
+
     margin: 24px 0 12px 0;
+
     position: relative;
+
 }
+
+
 
 img.avatar {
+
     width: 40%;
+
     border-radius: 50%;
+
 }
+
+
 
 .container {
+
     padding: 16px;
+
 }
+
+
 
 span.psw {
+
     float: right;
+
     padding-top: 16px;
+
 }
+
+
 
 /* The Modal (background) */
+
 .modal {
+
     display: none; /* Hidden by default */
+
     position: fixed; /* Stay in place */
+
     z-index: 1; /* Sit on top */
+
     left: 0;
+
     top: 0;
+
     width: 100%; /* Full width */
+
     height: 100%; /* Full height */
+
     overflow: auto; /* Enable scroll if needed */
+
     background-color: rgb(0,0,0); /* Fallback color */
+
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
     padding-top: 60px;
+
 }
+
+
 
 /* Modal Content/Box */
+
 .modal-content {
+
     background-color: #fefefe;
+
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+
     border: 1px solid #888;
+
     width: 80%; /* Could be more or less, depending on screen size */
+
 }
+
+
 
 /* The Close Button (x) */
+
 .close {
+
     position: absolute;
+
     right: 25px;
+
     top: 0;
+
     color: #000;
+
     font-size: 35px;
+
     font-weight: bold;
+
 }
+
+
 
 .close:hover,
+
 .close:focus {
+
     color: red;
+
     cursor: pointer;
+
 }
+
+
 
 /* Add Zoom Animation */
+
 .animate {
+
     -webkit-animation: animatezoom 0.6s;
+
     animation: animatezoom 0.6s
+
 }
+
+
 
 @-webkit-keyframes animatezoom {
+
     from {-webkit-transform: scale(0)} 
+
     to {-webkit-transform: scale(1)}
+
 }
+
     
+
 @keyframes animatezoom {
+
     from {transform: scale(0)} 
+
     to {transform: scale(1)}
+
 }
+
+
 
 /* Change styles for span and cancel button on extra small screens */
+
 @media screen and (max-width: 300px) {
+
     span.psw {
+
        display: block;
+
        float: none;
+
     }
+
     .cancelbtn {
+
        width: 100%;
+
     }
+
 }
+
+
 
 .pagination a {
+
     color: black;
+
     float: left;
+
     padding: 8px 16px;
+
     text-decoration: none;
+
     transition: background-color .3s;
+
 }
+
+
 
 /* Style the active/current link */
+
 .pagination a.active {
+
     background-color: dodgerblue;
+
     color: white;
+
 }
 
+
+
 /* Add a grey background color on mouse-over */
+
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
+
+
 /* Sytle testing for the overlay were the user creates new projects */
+
 .overlay_proj {
+
     	height: 100%;
+
     	width: 0;
+
     	position: fixed;
+
     	z-index: 1;
+
     	top: 0;
+
     	left: 0;
+
     	background-color: rgb(0,0,0);
+
     	background-color: rgba(0,0,0, 0.9);
+
     	overflow-x: hidden;
+
     	transition: 0.5s;
+
 	}
+
+
 
 	.overlay-content-mp {
+
     	position: relative;
+
     	top: 25%;
+
     	width: 100%;
+
     	text-align: center;
+
     	margin-top: 30px;
+
 	}
+
+
 
 	.overlay_proj a {
+
 	    padding: 8px;
+
 	    text-decoration: none;
+
 	    font-size: 36px;
+
 	    color: #818181;
+
 	    display: block;
+
 	    transition: 0.3s;
+
 	}
+
+
 
 	.overlay_proj a:hover, .overlay_proj a:focus {
+
 	    color: #f1f1f1;
+
 	}
+
+
 
 	.overlay_proj .closebtn {
+
 	    position: absolute;
+
 	    top: 20px;
+
 	    right: 45px;
+
 	    font-size: 60px;
+
 	}
 
+
+
 	@media screen and (max-height: 450px) {
+
 	  .overlay_proj a {font-size: 20px}
+
 	  .overlay_proj .closebtn {
+
 	    font-size: 40px;
+
 	    top: 15px;
+
 	    right: 35px;
+
 	  }
+
+}
+
+
+.pagination a {
+
+     color: black;
+
+     float: left;
+
+     padding: 8px 16px;
+
+     text-decoration: none;
+
+     transition: background-color .3s;
+
+ }
+
+ 
+
+ /* Style the active/current link */
+
+ .pagination a.active {
+
+     background-color: dodgerblue;
+
+     color: white;
+
+ }
+
+
+
+  /* Add a grey background color on mouse-over */
+
+ .pagination a:hover:not(.active) {
+
+ 	background-color: #ddd;
+
+}
+
+
+
+
+
+
+
+#id04,#id03 {
+
+	align-self: center;
+
+    max-width: 500px;
+
+    margin : auto;
+
+    padding-top: 100px;
+
+}
+
+
+
+a.button {padding-left: 10px}
+
+
+
+/* Style the list */
+
+ul.breadcrumb {
+
+    padding: 10px 16px;
+	
+	padding-top: 7rem;
+
+    padding-left: 7rem;
+
+    list-style: none;
+
+    background-color: #eee;
+
+}
+
+
+
+/* Display list items side by side */
+
+ul.breadcrumb li {
+
+    display: inline;
+
+    font-size: 18px;
+
+}
+
+
+
+/* Add a slash symbol (/) before/behind each list item */
+
+ul.breadcrumb li+li:before {
+
+    padding: 8px;
+
+    color: black;
+
+    content: "/\00a0";
+
+}
+
+
+
+/* Add a color to all links inside the list */
+
+ul.breadcrumb li a {
+
+    color: #0275d8;
+
+    text-decoration: none;
+
+}
+
+
+
+/* Add a color on mouse-over */
+
+ul.breadcrumb li a:hover {
+
+    color: #01447e;
+
+    text-decoration: underline;
+
 }

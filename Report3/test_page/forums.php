@@ -116,7 +116,7 @@ if(isset($_GET["id"]) && ($_GET["id"] != 'other')){
 			<div class="card-body">
 				<p class="card-text">Enter bellow new post</p>
 				<textarea id="form_message" name="message" class="form-control" placeholder="Please enter your Message *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-			<a href="forums.php" class="btn btn-primary">Send</a>
+			<a href="logged_in.php?page=forum" class="btn btn-primary">Send</a>
 			</div>
 		</div>
 	</div></div>
@@ -181,7 +181,7 @@ elseif(!isset($_GET["id"]) || (isset($_GET["id"]) && ($_GET["id"] == 'other'))){
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+			<a href="logged_in.php?page=forum&id=1" class="btn btn-primary">Go somewhere</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -193,7 +193,7 @@ elseif(!isset($_GET["id"]) || (isset($_GET["id"]) && ($_GET["id"] == 'other'))){
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+			<a href="logged_in.php?page=forum&id=1" class="btn btn-primary">Go somewhere</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -205,7 +205,7 @@ elseif(!isset($_GET["id"]) || (isset($_GET["id"]) && ($_GET["id"] == 'other'))){
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+			<a href="logged_in.php?page=forum&id=1" class="btn btn-primary">Go somewhere</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -227,7 +227,7 @@ elseif(!isset($_GET["id"]) || (isset($_GET["id"]) && ($_GET["id"] == 'other'))){
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+			<a href="logged_in.php?page=forum&id=1" class="btn btn-primary">Go somewhere</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -239,7 +239,7 @@ elseif(!isset($_GET["id"]) || (isset($_GET["id"]) && ($_GET["id"] == 'other'))){
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+			<a href="logged_in.php?page=forum&id=1" class="btn btn-primary">Go somewhere</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -251,7 +251,7 @@ elseif(!isset($_GET["id"]) || (isset($_GET["id"]) && ($_GET["id"] == 'other'))){
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+			<a href="logged_in.php?page=forum&id=1" class="btn btn-primary">Go somewhere</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -272,13 +272,47 @@ elseif(!isset($_GET["id"]) || (isset($_GET["id"]) && ($_GET["id"] == 'other'))){
   		<a href="#">&raquo;</a>
 	</div>
 	
-	<a href="#" class="btn btn-primary" style="position:absolute;bottom:1em;right:1em">New Forum</a>
+	<a class="btn btn-primary" href="#" onclick="document.getElementById('id05').style.display='block'"  style="position:absolute;bottom:1em;right:1em">New Forum</a>
 
     </section>
 </div>
 
 
+<div id="id05" class="modal" align="center">
 
+
+
+    <form class="modal-content animate" action="/action_page3.php">
+
+      <div class="imgcontainer">
+
+        <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;
+
+        </span>
+
+        </div>
+
+
+
+      <div class="container">
+
+        <label for="title"><b>Forum Thread Title</b></label>
+
+        <input type="text" placeholder="Enter Forum Thread Title" name="title" required><br>
+
+
+
+        <label for="pdis"><b>Post</b></label>
+
+        <textarea placeholder="Enter Text" name="post" rows="10" cols="40"></textarea><br>
+
+
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+
+  </div>
 
 	<p><br></br></p> 
 	
