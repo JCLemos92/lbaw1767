@@ -134,7 +134,7 @@ header.masthead h1{
 
 
 
-#id03 {
+#id04,#id03 {
 	align-self: center;
     max-width: 500px;
     margin : auto;
@@ -143,21 +143,3 @@ header.masthead h1{
 
 a.button {padding-left: 10px}
 
-.project_group button {
-    background-color: #4CAF50; /* Green background */
-    border: 1px solid green; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 50%; /* Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
-}
-
-.project_group button:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
-}
-
-/* Add a background color on hover */
-.project_group button:hover {
-    background-color: #3e8e41;
-}

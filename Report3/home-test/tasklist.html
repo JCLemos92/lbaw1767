@@ -46,10 +46,45 @@
             <img  width="100%" height="30" src="img/bg-masthead.jpg" alt="">
     </div>
 	
+    <div style="position: absolute; top: 7rem; left:7rem">
+      <a class="btn btn-primary" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">Create New Task</a>
+    </div>
+
+
+  <div id="id04" class="modal" align="center">
+
+    <form class="modal-content animate" action="/action_page3.php">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;
+        </span>
+        </div>
+
+      <div class="container">
+        <label for="title"><b>Task Title</b></label>
+        <input type="text" placeholder="Enter Task Title" name="title" required><br>
+
+        <label for="pdis"><b>Task Description</b></label>
+        <textarea placeholder="Enter Task Description" name="description" rows="10" cols="20"></textarea><br>
+
+        <label for="priority"><b>Priority</b></label>
+        <select name="priority">
+          <option value="priority">High</option>
+          <option value="priority">Medium</option>
+          <option value="priority">Low</option>
+        </select><br>
+
+        <label for="date"><b>Date for task</b></label>
+        <input type="date" id="bday" name="bday">
+
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
 
 	<div style="position: absolute; top: 7rem; right:7rem;">
-		<a class="btn btn-primary" href="#" onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Task List</a><br>
-		<a class="btn btn-primary" href="#" onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Forum</a>
+		<a class="btn btn-primary" href="thisproject.html" .style.display='block'" style="width:auto;">Project</a><br>
+		<a class="btn btn-primary" href="#" .style.display='block'" style="width:auto;">Forum</a>
 	</div>
 
     <section class="testimonials text-lg-left bg-light">
