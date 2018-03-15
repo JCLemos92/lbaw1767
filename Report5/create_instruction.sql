@@ -1,20 +1,20 @@
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE users(
-	IDuser INTEGER PRIMARY KEY Autoincrement,
-	username VARCHAR(60),
-	password VARCHAR(60),
+	IDuser INTEGER PRIMARY KEY Autoincrement NOT NULL,
+	username VARCHAR(60) NOT NULL,
+	password VARCHAR(60) NOT NULL,
 	name VARCHAR(60),
 	lastName VARCHAR(60),
 	gender VARCHAR(60),
 	country VARCHAR(60),
-	email VARCHAR(60)
+	email VARCHAR(60) NOT NULL
 );
 
 CREATE TABLE projects(
-	IDproject INTEGER PRIMARY KEY Autoincrement,
-	projTitle VARCHAR(60),
-	projDescription VARCHAR(500)
+	IDproject INTEGER PRIMARY KEY Autoincrement NOT NULL,
+	projTitle VARCHAR(60) NOT NULL,
+	projDescription VARCHAR(500) NOT NULL
 );
 
 CREATE TABLE projectMembers(
@@ -25,38 +25,38 @@ CREATE TABLE projectMembers(
 );
 
 CREATE TABLE tasks(
-	IDtask INTEGER PRIMARY KEY Autoincrement,
-	taskOwner INTEGER REFERENCES users(IDuser),
-	projectID INTEGER REFERENCES projects(IDproject),
-	taskName VARCHAR(60),
-	taskDescription VARCHAR(500),
-	priority VARCHAR(60),
+	IDtask INTEGER PRIMARY KEY Autoincrement NOT NULL,
+	taskOwner INTEGER REFERENCES users(IDuser) NOT NULL,
+	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
+	taskName VARCHAR(60) NOT NULL,
+	taskDescription VARCHAR(500) NOT NULL,
+	priority VARCHAR(60) NOT NULL,
 	dateLimit DATE,
 	completed INTEGER,
 	completionDate DATE
 );
 
 CREATE TABLE forum(
-	IDforum INTEGER PRIMARY KEY Autoincrement,
-	projectID INTEGER REFERENCES projects(IDproject),
-	ownerID INTEGER REFERENCES users(IDuser),
-	forumTitle VARCHAR(60),
+	IDforum INTEGER PRIMARY KEY Autoincrement NOT NULL,
+	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
+	ownerID INTEGER REFERENCES users(IDuser) NOT NULL,
+	forumTitle VARCHAR(60) NOT NULL,
 	forumDescription VARCHAR(500)
 );
 
 CREATE TABLE post(
-	IDpost INTEGER PRIMARY KEY Autoincrement,
-	forumID INTEGER REFERENCES forum(IDforum),
-	ownerID INTEGER REFERENCES users(IDuser),
-	postText VARCHAR(500),
-	postDate DATE
+	IDpost INTEGER PRIMARY KEY Autoincrement NOT NULL,
+	forumID INTEGER REFERENCES forum(IDforum) NOT NULL,
+	ownerID INTEGER REFERENCES users(IDuser) NOT NULL,
+	postText VARCHAR(500) NOT NULL,
+	postDate DATE NOT NULL
 );
 
 CREATE TABLE notification(
-	userID INTEGER REFERENCES users(IDuser),
-	senderID INTEGER REFERENCES users(IDuser),
-	projectID INTEGER REFERENCES projects(IDproject),
-	text VARCHAR(500),
-	dateSent DATE,
+	userID INTEGER REFERENCES users(IDuser) NOT NULL,
+	senderID INTEGER REFERENCES users(IDuser) NOT NULL,
+	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
+	text VARCHAR(500) NOT NULL,
+	dateSent DATE NOT NULL,
 	PRIMARY KEY (userID)
 );
