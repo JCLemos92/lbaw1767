@@ -23,6 +23,7 @@
     <link href="css/landing-page.min.css" rel="stylesheet">
          <style type="text/css">
       tab1 { padding-left: 22em; }
+      tab2 { padding-left: 16em; }
 
     </style>
   </head>
@@ -96,6 +97,29 @@
 	</div>
 
 
+<div id="id04" class="modal" align="left">
+
+    <form class="modal-content animate" action="/action_page3.php">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;
+        </span>
+        </div>
+
+
+<div class="container">
+    <h4>To invite a user, please enter a e-mail</h4>
+    <label for="title"><b>E-mail</b></label>
+    <input type="text" placeholder="Enter E-mail" name="title" required><br><br>
+    
+      </div>
+
+      <button  ype="submit" class="btn btn-primary">Invite</button>
+      <label style="text-align: center"><br>
+        <input type="checkbox" checked="checked" name="takeme" > Take me to project page
+      </label><br>
+    </form>
+  </div>
+
     </div>
 	    <div>
     <ul class="breadcrumb">
@@ -103,7 +127,11 @@
        <li>Project Title</li>
    </ul></div>
      	<div class="container">
-        	<br><h2 class="mb-5">Project Title <tab1><a class="btn" href="#" onclick="document.getElementById('id03').style.display='block'"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i><b class = "font-weight-bold" style="font-size: 150%">&ensp;Edit Project</b></a></h2>
+        	<br>
+        <h2 class="mb-5">Project Title <tab2>
+          <a class="btn" href="#" onclick="document.getElementById('id03').style.display='block'"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i><b class = "font-weight-bold" style="font-size: 150%">&ensp;Edit Project</b></a>
+          <a class="btn" href="#" onclick="document.getElementById('id04').style.display='block'"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i><b class = "font-weight-bold" style="font-size: 150%">&ensp;Invite Users</b></a>
+        </h2>
         	
           <h7 class="mb-5">Text with the description of the project! </h2></h7>
         	<br><br>
