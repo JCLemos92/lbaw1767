@@ -26,7 +26,7 @@ CREATE TABLE projectMembers(
 
 CREATE TABLE tasks(
 	IDtask INTEGER PRIMARY KEY Autoincrement NOT NULL,
-	taskOwner INTEGER REFERENCES users(IDuser) NOT NULL,
+	taskOwner INTEGER REFERENCES users(IDuser),
 	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
 	taskName VARCHAR(60) NOT NULL,
 	taskDescription VARCHAR(500) NOT NULL,
