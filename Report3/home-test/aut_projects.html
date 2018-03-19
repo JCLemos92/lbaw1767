@@ -21,8 +21,9 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
-         <style type="text/css">
+    <style type="text/css">
       tab1 { padding-left: 5em; }
+      tab2 { padding-left: 63em;}
 
     </style>
   </head>
@@ -30,16 +31,14 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light static-top">
+    <nav class="navbar navbar-light bg-light static-top"  style = "
+    height: 70px;">
       <div class="container">
         <a class="icon" href="aut_index.html">
         	<img class="img-fluid mb-2"  src="img/proplanlogo.svg" alt="" href="aut_index.html">
         </a>
         <a class="navbar-brand" href="aut_index.html">Home</a>
-        <a class="navbar-brand" href="aut_about.html">About</a>
         <a class="navbar-brand" href="aut_projects.html">Projects</a>
-        <a class="navbar-brand" href="aut_faq.html">FAQ</a>
-        <a class="navbar-brand" href="aut_contact.html">Contact</a>
         
         <div class="btn-group">
           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -84,9 +83,9 @@
 
 			</div>
 
-			<button  ype="submit" class="btn btn-primary">Submit</button>
-			<label style="text-align: center"><br>
-				<input type="checkbox" checked="checked" name="takeme"> Take me to project page
+			<tab1><tab1><button  type="submit" class="btn btn-lg btn-primary" style ="width:50%;">Submit</button>
+			<label style="text-align: center">
+				<tab1>&ensp;&ensp;<input type="checkbox" checked="checked" name="takeme"> Take me to project page
 			</label><br>
 		</form>
 	</div>
@@ -138,18 +137,30 @@
      <a class="nav-link" id="private-tab" data-toggle="tab" href="#private" role="tab" aria-controls="private" aria-selected="false" style= "font-size: 150%">Private Projects</a>
     </li>
   </li>
-</ul><br>
+</ul>
+
+        <div class="btn-group">
+          <tab2><button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Filter
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Done</a>
+            <a class="dropdown-item" href="#">In Progress</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Finished</a>
+          </div>
+        </div><br><br>
 
 <div class="tab-content" id="myTabContent">
     <div class="tab-pane fade show active" id="public" role="tabpanel" aria-labelledby="public-tab">
 	<div class="card-deck">
 		<div class="card">
 			<div class="card-header">
-			<h5 class="card-title">Title of Project</h5>
+			<h5 class="card-title">Title of Project<tab1> <a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a></h5>
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a><tab1></tab1><a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a>
+			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -157,11 +168,11 @@
 		</div>
 		<div class="card">
 			<div class="card-header">
-			<h5 class="card-title">Title of Project</h5>
+			<h5 class="card-title">Title of Project<tab1> <a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a></h5></h5>
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a><tab1></tab1><a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a>
+			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -169,11 +180,11 @@
 		</div>
 		<div class="card">
 			<div class="card-header">
-			<h5 class="card-title">Title of Project</h5>
+			<h5 class="card-title">Title of Project<tab1> <a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a></h5></h5>
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a><tab1></tab1><a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a>
+			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -186,11 +197,11 @@
 	<div class="card-deck">
 		<div class="card">
 			<div class="card-header">
-			<h5 class="card-title">Title of Project</h5>
+			<h5 class="card-title">Title of Project <tab1> <a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a></h5></h5>
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a><tab1></tab1><a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a>
+			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -198,11 +209,11 @@
 		</div>
 		<div class="card">
 			<div class="card-header">
-			<h5 class="card-title">Title of Project</h5>
+			<h5 class="card-title">Title of Project <tab1> <a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a></h5></h5>
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a><tab1></tab1><a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a>
+			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>
@@ -210,11 +221,11 @@
 		</div>
 		<div class="card">
 			<div class="card-header">
-			<h5 class="card-title">Title of Project</h5>
+			<h5 class="card-title">Title of Project<tab1> <a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a></h5></h5>
 			</div>
 			<div class="card-body">
 				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a><tab1></tab1><a class="btn btn-success" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">JOIN</a>
+			<a href="aut_thisproject.html" class="btn btn-primary">Go to Project Page</a>
 			</div>
 			<div class="card-footer">
 				<small class="text-muted">Last updated 3 mins ago</small>

@@ -21,7 +21,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
+         <style type="text/css">
+      tab1 { padding-left: 10em; }
 
+    </style>
   </head>
 
   <body>
@@ -43,12 +46,13 @@
   <!-- The Modal -->
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate modal-lg" action="/action_page.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
 
     <div class="container">
+      <h3> Register </h3><br>
       <label for="name"><b>Name</b></label>
       <input type="text" placeholder="Enter Name" name="name" required>
 
@@ -342,8 +346,8 @@
       <label for="cpsw"><b>Confirm password</b></label>
       <input type="password" placeholder="Confirm Password" name="cpsw" required>
         
-      <button class="btn btn-block btn-lg btn-primary" type="submit">Login</button>
-      <label>
+      <tab1></tab1><button class="btn btn-lg btn-primary" type="submit" style ="width:25%;">Login</button>
+      <tab1><label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
     </div>
@@ -370,10 +374,9 @@
       <input type="text" placeholder="Enter Username" name="uname" required>
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button class="btn btn-block btn-lg btn-primary" type="submit">Login</button>
-      <label>
+      <input type="password" placeholder="Enter Password" name="psw" required>  
+      <tab1></tab1><button class="btn btn-lg btn-primary" type="submit" style ="width:25%;">Login</button>
+      <tab1><label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
     </div>

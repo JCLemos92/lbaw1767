@@ -24,6 +24,7 @@
     <style type="text/css">
       tab1 { padding-left: 49em; }
       tab2 { padding-left: 50em; }
+      tab3 { padding-left: 5em; }
     </style>
 
   </head>
@@ -31,16 +32,14 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light static-top">
+    <nav class="navbar navbar-light bg-light static-top"  style = "
+    height: 70px;">
       <div class="container">
         <a class="icon" href="aut_index.html">
           <img class="img-fluid mb-2"  src="img/proplanlogo.svg" alt="" href="aut_index.html">
         </a>
         <a class="navbar-brand" href="aut_index.html">Home</a>
-        <a class="navbar-brand" href="aut_about.html">About</a>
         <a class="navbar-brand" href="aut_projects.html">Projects</a>
-        <a class="navbar-brand" href="aut_faq.html">FAQ</a>
-        <a class="navbar-brand" href="aut_contact.html">Contact</a>
         <div class="btn-group">
           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Username
@@ -77,7 +76,7 @@
     <a class="btn btn-primary" href="tasklist.html" onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Tasks</a>
   </div><br><br>
 
-  <div id="id05" class="modal" align="center">
+  <div id="id05" class="modal" align="left">
 
     <form class="modal-content animate" action="/action_page3.php">
       <div class="imgcontainer">
@@ -89,10 +88,10 @@
         <label for="title"><b>Forum Thread Title</b></label>
         <input type="text" placeholder="Enter Forum Thread Title" name="title" required><br>
 
-        <label for="pdis"><b>Post</b></label>
-        <textarea placeholder="Enter Text" name="post" rows="10" cols="40"></textarea><br>
+        <label for="pdis"><b>Post</b></label><br>
+        <textarea placeholder="&ensp;&ensp;Enter Text" name="post" rows="10" cols="60"></textarea><br>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <tab3><tab3><button  type="submit" class="btn btn-lg btn-primary" style ="width:50%;">Submit</button><br>
     </div>
     </form>
   </div>
@@ -103,7 +102,7 @@
 
     <div align="text-center">
 <h2>Forum Threads</h2><br>
-<a class="btn btn-primary" href="#" onclick="document.getElementById('id05').style.display='block'" style="width:auto;">Create New Forum Thread</a>
+<tab1><a class="btn btn-primary" href="#" onclick="document.getElementById('id05').style.display='block'" style="width:auto;">Create New Forum Thread</a>
 </div><br>
   <div>
     <p><br></p>
@@ -127,8 +126,8 @@
       <h5 class="card-title">Title of Forum</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+        <p class="card-text">Go to a forum post example by clicking below</p>
+      <a href="forums.php?id=1" class="btn btn-primary">Forum Post</a>
       </div>
       <div class="card-footer">
         <small class="text-muted">Last updated 3 mins ago</small>
@@ -139,8 +138,8 @@
       <h5 class="card-title">Title of Forum</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+        <p class="card-text">Go to a forum post example by clicking below</p>
+      <a href="forums.php?id=1" class="btn btn-primary">Forum Post</a>
       </div>
       <div class="card-footer">
         <small class="text-muted">Last updated 3 mins ago</small>
@@ -161,8 +160,8 @@
       <h5 class="card-title">Title of Forum</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+        <p class="card-text">Go to a forum post example by clicking below</p>
+      <a href="forums.php?id=1" class="btn btn-primary">Forum Post</a>
       </div>
       <div class="card-footer">
         <small class="text-muted">Last updated 3 mins ago</small>
@@ -173,8 +172,8 @@
       <h5 class="card-title">Title of Forum</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+        <p class="card-text">Go to a forum post example by clicking below</p>
+      <a href="forums.php?id=1" class="btn btn-primary">Forum Post</a>
       </div>
       <div class="card-footer">
         <small class="text-muted">Last updated 3 mins ago</small>
@@ -185,8 +184,8 @@
       <h5 class="card-title">Title of Forum</h5>
       </div>
       <div class="card-body">
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="forums.php?id=1" class="btn btn-primary">Go somewhere</a>
+        <p class="card-text">Go to a forum post example by clicking below</p>
+      <a href="forums.php?id=1" class="btn btn-primary">Forum Post</a>
       </div>
       <div class="card-footer">
         <small class="text-muted">Last updated 3 mins ago</small>
