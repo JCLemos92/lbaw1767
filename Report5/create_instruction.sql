@@ -53,7 +53,7 @@ CREATE TABLE comments(
 	IDcomment INTEGER PRIMARY KEY Autoincrement NOT NULL,
 	forumID INTEGER REFERENCES forum(IDforum) NOT NULL,
 	ownerID INTEGER REFERENCES users(IDuser) NOT NULL,
-	text VARCHAR(500) NOT NULL,
+	commentText VARCHAR(500) NOT NULL,
 	commentDate DATE NOT NULL
 );
 
