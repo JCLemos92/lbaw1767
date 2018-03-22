@@ -14,7 +14,8 @@ CREATE TABLE users(
 CREATE TABLE projects(
 	IDproject INTEGER PRIMARY KEY Autoincrement NOT NULL,
 	projTitle VARCHAR(60) NOT NULL,
-	projDescription VARCHAR(500) NOT NULL
+	projDescription VARCHAR(500) NOT NULL,
+	size INTEGER NOT NULL
 );
 
 CREATE TABLE projectMembers(
