@@ -15,48 +15,53 @@ CREATE TABLE projects(
 	IDproject INTEGER PRIMARY KEY Autoincrement NOT NULL,
 	projTitle VARCHAR(60) NOT NULL,
 	projDescription VARCHAR(500) NOT NULL,
-	size INTEGER NOT NULL
+	teamSize INTEGER NOT NULL,
+	privacy BOOLEAN NOT NULL
 );
 
 CREATE TABLE projectMembers(
 	projectID INTEGER REFERENCES projects(IDproject),
 	userID INTEGER REFERENCES users(IDuser),
-	role VARCHAR(60),
+	role ENUM('Coordinator', 'Member', 'Pending'),
 	PRIMARY KEY (projectID)
 );
 
 CREATE TABLE tasks(
 	IDtask INTEGER PRIMARY KEY Autoincrement NOT NULL,
-	taskOwner INTEGER REFERENCES users(IDuser),
+	taskOwner INTEGER REFERENCES users(IDuser) NOT NULL,
 	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
 	taskName VARCHAR(60) NOT NULL,
 	taskDescription VARCHAR(500) NOT NULL,
 	priority ENUM('High', 'Medium', 'Low') NOT NULL,
+	dateCreated DATE NOT NULL,
 	dateLimit DATE,
 	status ENUM('Completed', 'Pending', 'Progress'),
+	taskWorker INTEGER REFERENCES users(IDuser),
 	completionDate DATE
 );
 
-CREATE TABLE forum(
+CREATE TABLE forumPost(
 	IDforum INTEGER PRIMARY KEY Autoincrement NOT NULL,
 	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
 	ownerID INTEGER REFERENCES users(IDuser) NOT NULL,
 	forumTitle VARCHAR(60) NOT NULL,
-	forumDescription VARCHAR(500)
+	post VARCHAR(500) NOT NULL,
+	dateCreated DATE NOT NULL
 );
 
-CREATE TABLE post(
-	IDpost INTEGER PRIMARY KEY Autoincrement NOT NULL,
+CREATE TABLE comments(
+	IDcomment INTEGER PRIMARY KEY Autoincrement NOT NULL,
 	forumID INTEGER REFERENCES forum(IDforum) NOT NULL,
 	ownerID INTEGER REFERENCES users(IDuser) NOT NULL,
-	postText VARCHAR(500) NOT NULL,
-	postDate DATE NOT NULL
+	text VARCHAR(500) NOT NULL,
+	commentDate DATE NOT NULL
 );
 
 CREATE TABLE notification(
 	userID INTEGER REFERENCES users(IDuser) NOT NULL,
 	senderID INTEGER REFERENCES users(IDuser) NOT NULL,
 	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
+	taskID INTEGER REFERENCES tasks(IDtask),
 	text VARCHAR(500) NOT NULL,
 	dateSent DATE NOT NULL,
 	PRIMARY KEY (userID)
