@@ -33,7 +33,7 @@ CREATE TABLE tasks(
 	taskDescription VARCHAR(500) NOT NULL,
 	priority ENUM('High', 'Medium', 'Low') NOT NULL,
 	dateLimit DATE,
-	completed ENUM('True', 'False'),
+	status ENUM('Completed', 'Pending', 'Progress'),
 	completionDate DATE
 );
 
