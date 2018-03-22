@@ -6,7 +6,7 @@ CREATE TABLE users(
 	password VARCHAR(60) NOT NULL,
 	name VARCHAR(60),
 	lastName VARCHAR(60),
-	gender VARCHAR(60),
+	gender ENUM('M','F','O'),
 	country VARCHAR(60),
 	email VARCHAR(60) NOT NULL
 );
