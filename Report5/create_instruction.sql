@@ -72,6 +72,5 @@ CREATE TABLE notification(
 	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
 	taskID INTEGER REFERENCES tasks(IDtask),
 	notificationText VARCHAR(500) NOT NULL,
-	dateSent DATE NOT NULL,
-	PRIMARY KEY (userID)
+	dateSent DATE NOT NULL
 );
