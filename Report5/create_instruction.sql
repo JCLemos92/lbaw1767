@@ -73,6 +73,18 @@ CREATE TABLE comments(
 	commentDate DATE NOT NULL
 );
 
+CREATE TABLE commentUpVote(
+	comment_ID INTEGER REFERENCES comments(comment_ID) NOT NULL,
+	voter_ID INTEGER REFERENCES users(user_ID) NOT NULL,
+	PRIMARY KEY(comment_ID)
+);
+
+CREATE TABLE commentDownVote(
+	comment_ID INTEGER REFERENCES comments(comment_ID) NOT NULL,
+	voter_ID INTEGER REFERENCES users(user_ID) NOT NULL,
+	PRIMARY KEY(comment_ID)
+);
+
 CREATE TABLE notification(
 	notification_ID INTEGER PRIMARY KEY Autoincrement NOT NULL,
 	user_ID INTEGER REFERENCES users(user_ID) NOT NULL,
