@@ -27,7 +27,7 @@ CREATE TABLE projectMembers(
 );
 
 CREATE TABLE tasks(
-	IDtask INTEGER PRIMARY KEY Autoincrement NOT NULL,
+	IDtask INTEGER PRIMARY KEY Autoincrement NOT NULL UNIQUE,
 	taskOwner INTEGER REFERENCES users(IDuser) NOT NULL,
 	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
 	taskName VARCHAR(60) NOT NULL,
@@ -35,7 +35,16 @@ CREATE TABLE tasks(
 	priority ENUM('High', 'Medium', 'Low') NOT NULL,
 	dateCreated DATE NOT NULL,
 	dateLimit DATE,
-	status ENUM('Completed', 'Pending', 'Progress'),
+	status ENUM('Completed', 'Pending', 'Progress')
+);
+
+CREATE TABLE taskInProgress(
+	taskID INTEGER PRIMARY KEY Autoincrement NOT NULL UNIQUE,
+	taskWorker INTEGER REFERENCES users(IDuser)
+);
+
+CREATE TABLE taskCompleted(
+	taskID INTEGER PRIMARY KEY Autoincrement NOT NULL UNIQUE,
 	taskWorker INTEGER REFERENCES users(IDuser),
 	completionDate DATE
 );
