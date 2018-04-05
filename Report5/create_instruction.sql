@@ -20,15 +20,30 @@ CREATE TABLE projects(
 );
 
 CREATE TABLE projectMembers(
-	project_ID INTEGER REFERENCES projects(project_ID),
-	user_ID INTEGER REFERENCES users(user_ID),
-	role ENUM('Coordinator', 'Member', 'Pending'),
+	project_ID INTEGER REFERENCES projects(project_ID) NOT NULL,
+	user_ID INTEGER REFERENCES users(user_ID) NOT NULL,
+	role ENUM('Coordinator', 'Member', 'Pending') NOT NULL,
+	PRIMARY KEY (project_ID)
+);
+
+CREATE TABLE invitedMembers(
+	project_ID INTEGER REFERENCES projects(project_ID) NOT NULL,
+	user_ID INTEGER REFERENCES users(user_ID) NOT NULL,
+	inviter_ID INTEGER REFERENCES users(user_ID) NOT NULL,
+	inviteDate DATE NOT NULL,
+	PRIMARY KEY (project_ID)
+);
+
+CREATE TABLE appliedMembers(
+	project_ID INTEGER REFERENCES projects(project_ID) NOT NULL,
+	user_ID INTEGER REFERENCES users(user_ID) NOT NULL,
+	applicationDate DATE NOT NULL,
 	PRIMARY KEY (project_ID)
 );
 
 CREATE TABLE bannedMembers(
-	project_ID INTEGER REFERENCES projects(project_ID),
-	user_ID INTEGER REFERENCES users(user_ID),
+	project_ID INTEGER REFERENCES projects(project_ID) NOT NULL,
+	user_ID INTEGER REFERENCES users(user_ID) NOT NULL,
 	PRIMARY KEY (project_ID)
 );
 	
