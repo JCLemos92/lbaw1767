@@ -67,6 +67,7 @@ CREATE TABLE comments(
 );
 
 CREATE TABLE notification(
+	notification_ID INTEGER PRIMARY KEY Autoincrement NOT NULL,
 	user_ID INTEGER REFERENCES users(user_ID) NOT NULL,
 	sender_ID INTEGER REFERENCES users(user_ID) NOT NULL,
 	project_ID INTEGER REFERENCES projects(project_ID) NOT NULL,
