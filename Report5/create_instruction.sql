@@ -1,7 +1,7 @@
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE users(
-	IDuser INTEGER PRIMARY KEY Autoincrement NOT NULL,
+	user_ID INTEGER PRIMARY KEY Autoincrement NOT NULL,
 	username VARCHAR(60) NOT NULL,
 	password VARCHAR(60) NOT NULL,
 	name VARCHAR(60),
@@ -12,7 +12,7 @@ CREATE TABLE users(
 );
 
 CREATE TABLE projects(
-	IDproject INTEGER PRIMARY KEY Autoincrement NOT NULL,
+	project_ID INTEGER PRIMARY KEY Autoincrement NOT NULL,
 	projTitle VARCHAR(60) NOT NULL,
 	projDescription VARCHAR(500) NOT NULL,
 	teamSize INTEGER NOT NULL,
@@ -20,16 +20,16 @@ CREATE TABLE projects(
 );
 
 CREATE TABLE projectMembers(
-	projectID INTEGER REFERENCES projects(IDproject),
-	userID INTEGER REFERENCES users(IDuser),
+	project_ID INTEGER REFERENCES projects(project_ID),
+	user_ID INTEGER REFERENCES users(user_ID),
 	role ENUM('Coordinator', 'Member', 'Pending'),
-	PRIMARY KEY (projectID)
+	PRIMARY KEY (project_ID)
 );
 
 CREATE TABLE tasks(
-	IDtask INTEGER PRIMARY KEY Autoincrement NOT NULL UNIQUE,
-	taskOwner INTEGER REFERENCES users(IDuser) NOT NULL,
-	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
+	task_ID INTEGER PRIMARY KEY Autoincrement NOT NULL UNIQUE,
+	taskOwner INTEGER REFERENCES users(user_ID) NOT NULL,
+	project_ID INTEGER REFERENCES projects(project_ID) NOT NULL,
 	taskName VARCHAR(60) NOT NULL,
 	taskDescription VARCHAR(500) NOT NULL,
 	priority ENUM('High', 'Medium', 'Low') NOT NULL,
@@ -39,38 +39,38 @@ CREATE TABLE tasks(
 );
 
 CREATE TABLE taskInProgress(
-	taskID INTEGER PRIMARY KEY Autoincrement NOT NULL UNIQUE,
-	taskWorker INTEGER REFERENCES users(IDuser) NOT NULL
+	task_ID INTEGER PRIMARY KEY Autoincrement NOT NULL UNIQUE,
+	taskWorker INTEGER REFERENCES users(user_ID) NOT NULL
 );
 
 CREATE TABLE taskCompleted(
-	taskID INTEGER PRIMARY KEY Autoincrement NOT NULL UNIQUE,
-	taskWorker INTEGER REFERENCES users(IDuser) NOT NULL,
+	task_ID INTEGER PRIMARY KEY Autoincrement NOT NULL UNIQUE,
+	taskWorker INTEGER REFERENCES users(user_ID) NOT NULL,
 	completionDate DATE NOT NULL
 );
 
 CREATE TABLE forumPost(
-	IDforum INTEGER PRIMARY KEY Autoincrement NOT NULL,
-	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
-	ownerID INTEGER REFERENCES users(IDuser) NOT NULL,
+	forum_ID INTEGER PRIMARY KEY Autoincrement NOT NULL,
+	project_ID INTEGER REFERENCES projects(project_ID) NOT NULL,
+	owner_ID INTEGER REFERENCES users(user_ID) NOT NULL,
 	forumTitle VARCHAR(60) NOT NULL,
 	post VARCHAR(500) NOT NULL,
 	dateCreated DATE NOT NULL
 );
 
 CREATE TABLE comments(
-	IDcomment INTEGER PRIMARY KEY Autoincrement NOT NULL,
-	forumID INTEGER REFERENCES forum(IDforum) NOT NULL,
-	ownerID INTEGER REFERENCES users(IDuser) NOT NULL,
+	comment_ID INTEGER PRIMARY KEY Autoincrement NOT NULL,
+	forum_ID INTEGER REFERENCES forumPost(forum_ID) NOT NULL,
+	owner_ID INTEGER REFERENCES users(user_ID) NOT NULL,
 	commentText VARCHAR(500) NOT NULL,
 	commentDate DATE NOT NULL
 );
 
 CREATE TABLE notification(
-	userID INTEGER REFERENCES users(IDuser) NOT NULL,
-	senderID INTEGER REFERENCES users(IDuser) NOT NULL,
-	projectID INTEGER REFERENCES projects(IDproject) NOT NULL,
-	taskID INTEGER REFERENCES tasks(IDtask),
+	user_ID INTEGER REFERENCES users(user_ID) NOT NULL,
+	sender_ID INTEGER REFERENCES users(user_ID) NOT NULL,
+	project_ID INTEGER REFERENCES projects(project_ID) NOT NULL,
+	task_ID INTEGER REFERENCES tasks(task_ID),
 	notificationText VARCHAR(500) NOT NULL,
 	dateSent DATE NOT NULL
 );
