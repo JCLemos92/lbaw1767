@@ -26,6 +26,13 @@ CREATE TABLE projectMembers(
 	PRIMARY KEY (project_ID)
 );
 
+CREATE TABLE bannedMembers(
+	project_ID INTEGER REFERENCES projects(project_ID),
+	user_ID INTEGER REFERENCES users(user_ID),
+	PRIMARY KEY (project_ID)
+);
+	
+
 CREATE TABLE tasks(
 	task_ID INTEGER PRIMARY KEY Autoincrement NOT NULL UNIQUE,
 	taskOwner INTEGER REFERENCES users(user_ID) NOT NULL,
