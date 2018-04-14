@@ -42,7 +42,7 @@ Storyboards are presented to represent some of the main interactions with the sy
 Figure 4: Wireflow of creating task.
 
 
-![sb2](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/imag/sb/creating_project.PNG)
+![sb2](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/imag/sb/creating_project.bmp)
 Figure 5: Wireflow of creating project.
 
 
