@@ -5,7 +5,7 @@
 ProPlan is a responsive web application based on HTML5, JavaScript and CSS. The user interface was implemented using the Bootstrap framework.
 
 
-![navbar](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/home_navbar.PNG)
+![navbar](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/f_home.PNG)
 
  1. ProPlan Logo
  2. Navbar
