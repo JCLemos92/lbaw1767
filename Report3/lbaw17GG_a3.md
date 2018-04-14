@@ -121,7 +121,7 @@ Figure 15: New project page.
 
 ### UI10: Project View
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/projectview.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/project_page.PNG)
 
 Figure 16: Page of a project. 
 
@@ -149,7 +149,7 @@ Figure 19: Project Forum page.
 
 ### UI14: Create a Forum Post
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/forumpost.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/newforumpost.PNG)
 
 Figure 20: Create a Forum Post. 
  
