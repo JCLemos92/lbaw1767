@@ -15,7 +15,7 @@ Figure 1: Interface's guidelines, navbar view.
 
 The website also have a footer
 
-![footer](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/footer.PNG)
+![footer](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/footer.PNG)
 
 Figure 2: Footer view.
 
@@ -28,7 +28,7 @@ Sitemap ia a flow chart diagram that shows connections between web pages, giving
 A visual sitemap is useful for both website users and developers, users can see how to navegate into the site, and developers can easily understand how the information hierachy works.
 
 
-![sitemap](https://github.com/JCLemos92/lbaw1767/blob/master/Report3/sitemap2.0.PNG?raw=true.PNG)
+![sitemap](https://github.com/JCLemos92/lbaw1767/blob/master/Report3/img/sitemap2.0.PNG?raw=true.PNG)
 
 Figure 3: Sitemap. 
 
@@ -37,16 +37,16 @@ Figure 3: Sitemap.
 Storyboards are presented to represent some of the main interactions with the system using a sequence of interfaces and explaining how navigation is done between them. 
 
 
-![sb1](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/user_login.bmp)
+![sb1](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/sb/creating_task.bmp)
 
-Figure 4: Wireflow of user's login and menu options.
+Figure 4: Wireflow of creating task.
 
 
-![sb2](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/create_project.PNG)
+![sb2](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/imag/sb/creating_project.PNG)
 Figure 5: Wireflow of creating project.
 
 
-![sb3](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/forum_post.bmp)
+![sb3](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/sb/posting_forum.bmp)
 
 Figure 6: Wireflow of posting on forum.
 
@@ -58,98 +58,98 @@ The following interfaces describe the main content of the web pages and their re
  
 ### UI01: Home
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/home.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/f_home.PNG)
 
 Figure 7: Home page. 
 
  
 ### UI02: About
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/about.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/f_about.PNG)
 
 Figure 8: About page.
 
 
 ### UI03: FAQ
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/faq.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/f_faq.PNG)
 
 Figure 9: FAQ page. 
 
 
 ### UI04: Contact
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/contact.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/f_contact.PNG)
 
 Figure 10: Contact page. 
 
 
 ### UI05: Sign In
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/login.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/login.PNG)
 
 Figure 11: Sign In. 
 
 
 ### UI06: Sign Up
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/signup.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/signup.PNG)
 
 Figure 12: Sign Up. 
 
 
-### UI07: Edit Profile
+### UI07: User Profile
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/editprofile.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/profile.PNG)
 
-Figure 13: User edit profile page. 
+Figure 13: User profile page.
 
 
 ### UI08: Projects
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/projects.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/projects.PNG)
 
 Figure 14: Projects page.
 
 
 ### UI09: Create a Project
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/newproject.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/newproject.PNG)
 
 Figure 15: New project page. 
 
 
 ### UI10: Project View
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/projectview.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/projectview.PNG)
 
 Figure 16: Page of a project. 
 
 
 ### UI11: Task List
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/tasks.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/task_list.PNG)
 
 Figure 17: Task list. 
 
 
 ### UI12: Create a Task
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/createtask.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/createtask.PNG)
 
 Figure 18: Create a new task. 
 
 
 ### UI13: Project Forum
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/forum.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/forum.PNG)
 
 Figure 19: Project Forum page. 
 
 
 ### UI14: Create a Forum Post
 
-![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/forumpost.PNG)
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/forumpost.PNG)
 
 Figure 20: Create a Forum Post. 
  
