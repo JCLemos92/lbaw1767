@@ -152,6 +152,18 @@ Figure 19: Project Forum page.
 ![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/newforumpost.PNG)
 
 Figure 20: Create a Forum Post. 
+
+### UI15: View Forum Post
+
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/forumpost.PNG)
+
+Figure 21: View Forum Post. 
+ 
+ ### UI16: Create a new message on Forum Post
+
+![image](https://raw.githubusercontent.com/JCLemos92/lbaw1767/master/Report3/img/message.PNG)
+
+Figure 22: Create a new message on Forum Post.
  
  
 ***
