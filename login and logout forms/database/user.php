@@ -3,8 +3,8 @@
   function isLoginCorrect($username, $password) {
     global $dbh;
     $stmt = $dbh->prepare('SELECT * FROM users WHERE username = ? AND password = ?');
-    //$stmt->execute(array($username, md5($password)));
-	$stmt->execute(array($username, $password));
+    $stmt->execute(array($username, md5($password)));
+	//$stmt->execute(array($username, $password));
     $aux = $stmt->fetch();
     if($aux !== false) {
 		echo $aux[user_ID];
