@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ProPlan</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome-popup.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+    <style type="text/css">
+      tab1 { padding-left: 49em; }
+      tab2 { padding-left: 50em; }
+      tab3 { padding-left: 5em; }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light static-top"  style = "
+    height: 70px;">
+      <div class="container">
+        <a class="icon" href="aut_index.html">
+          <img class="img-fluid mb-2"  src="img/proplanlogo.svg" alt="" href="aut_index.html"></a>
+        <a class="navbar-brand" href="aut_index.html">Home</a>
+        <a class="navbar-brand" href="aut_projects.html">Projects</a>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Username
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="aut_editprofile.html">Edit Profile</a>
+            <a class="dropdown-item" href="aut_projects.html">My Projects</a>
+            <a class="dropdown-item" href="#">Project Invites</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index.html">Sign Out</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+        <div class="col-xl-0 mx-auto">
+            <img  width="100%" height="30" src="img/bg-masthead.jpg" alt="">
+    </div>
+    <div>
+    <ul class="breadcrumb">
+       <li><a href="aut_projects.html">My Projects</a></li>
+       <li><a href="aut_thisproject.html">Project Title</a></li>
+       <li>Task List</li>
+   </ul></div>
+          <div class="container">
+          <br><h2 class="mb-5">Project Title</h2>
+          <h7 class="mb-5">Text with the description of the project</h7>
+          <br><br>
+
+  <div>
+    <a class="btn btn-primary" href="aut_thisproject.html" onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Project</a>&ensp;&ensp;
+    <a class="btn btn-primary" href="aut_forum.html" onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Forum</a>
+  </div><br><br>
+	
+
+
+  <div id="id04" class="modal" align="left">
+
+    <form class="modal-content animate" action="/action_page3.php">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;
+        </span>
+        </div>
+
+      <div class="container">
+        <label for="title"><b>Task Title</b></label>
+        <input type="text" placeholder="Enter Task Title" name="title" required><br>
+
+        <label for="pdis"><b>Task Description</b></label>
+        <textarea placeholder="Enter Task Description" name="description" rows="10" class = "form-control"></textarea><br>
+
+        <label for="priority"><b>Priority</b></label>
+        <select name="priority" class = "form-control">
+          <option value="priority">High</option>
+          <option value="priority">Medium</option>
+          <option value="priority">Low</option>
+        </select><br>
+
+        <label for="date"><b>Date for task</b></label>
+        <input type="date" id="bday" name="bday" class = "form-control" required>
+
+      </div>
+
+      <tab3><tab3><button  type="submit" class="btn btn-lg btn-primary" style ="width:50%;">Submit</button><br>
+    </form>
+  </div>
+
+<div align="text-center">
+<h2>Task List</h2><br>
+<a class="btn btn-primary" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">Create New Task</a>
+</div><br>
+
+			<div class="card-deck">
+				<div class="card text-white bg-danger mb-3">
+						<div class="card-header">In works by NAME<tab1></tab1></tab1>
+                <a class="btn btn-primary" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">EDIT </a>
+                <a class="btn btn-primary" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">DELETE</a></div>
+						<div class="card-body">
+						<h5 class="card-title">Title of task</h5>
+						<p class="card-text">Descritpion of task</p>
+						</div>
+				</div>
+			</div><br>
+			<div class="card-deck">
+				<div class="card text-white bg-success mb-3">
+						<div class="card-header">No one in charge<tab2></tab2><a class="btn btn-primary" href="#" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">TAKE THIS TASK</a></div>
+						<div class="card-body">
+						<h5 class="card-title">Title of task</h5>
+						<p class="card-text">Descritpion of task</p>
+						</div>
+				</div>
+			</div><br>
+			<div class="card-deck">
+				<div class="card text-white bg-dark mb-3">
+						<div class="card-header">Completed by NAME</div>
+						<div class="card-body">
+						<h5 class="card-title">Title Of task</h5>
+						<p class="card-text">Descritpion of task</p>
+            <div class="card-footer">Date of Completion: 12/03/2018</div>
+						</div>
+				</div>
+			</div><br>	
+    <section align="center"><h4>
+        <div class="text-center " >
+          <a href="#">&laquo;</a>
+          &ensp;<a href="#">1</a>&ensp;
+          <a class="active" href="#">2</a>&ensp;
+          <a href="#">3</a>&ensp;
+          <a href="#">4</a>&ensp;
+          <a href="#">5</a>&ensp;
+          <a href="#">6</a>&ensp;
+          <a href="#">&raquo;</a>&ensp;
+      </div>  </h4> 
+    </div>
+    </section>
+
+</div>
+        <div class="col-xl-0 mx-auto">
+            <img  width="100%" height="30" src="img/bg-masthead.jpg" alt="">
+    </div>
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="aut_about.html">About</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="aut_faq.html">FAQ</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="aut_contact.html">Contact</a>
+              </li>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; ProPlan 2018. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+	
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/popup.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
