@@ -1,0 +1,14 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+use App\Signin;
+
+
+class Signin extends Model
+{
+    public $timestamps = false; //Retira as colunas do update at e create at
+
+    protected $fillable = ['username', 'password'];
+}
