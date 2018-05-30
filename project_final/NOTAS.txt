@@ -1,0 +1,30 @@
+Criar uma rota para cada pagina, redirecionar rota para controller
+Para criar controller: php artisan make:controller NomeController
+Na rota redicionar para @funtion do controller
+Cada controller pdoe ter mais de uma function, assim as paginas estaticas por exemplo, podem ser associadas a um só controller
+Ver video 6 do curso (para entender como usar rotas com parametros)
+
+Se colocar -> middleware em uma rota, ela fica com permissao só para o parametro
+
+Aula 7(QUANDO FOR CRIAR PROJETOS)->
+Criar controller com resource, ja te form, edit, update tudo pronto
+
+Recurso request -> aula 7 10 min
+
+AULA 8
+Views, passar parametros para views
+
+AULA 10
+Loop, condicionais com php blade
+
+Aula 11 
+Stacks -> talvez usa isso pra por javascript e css nas paginas
+entendi, usa isso pra colocar js e css em que usa em paginas especificas, os css e js que usa em tudo coloca logo na template, que ai ja joga pra todos
+
+
+Puxar infos do banco de dados: AULA 15
+
+Colocar CSS aula ->19
+
+AULA 20-> FORMS
+
